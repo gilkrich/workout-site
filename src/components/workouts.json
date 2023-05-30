@@ -1,0 +1,280 @@
+{
+    "man-workout": [
+        {
+            "name": "Advanced Bodyweight Workout",
+            "level": "advanced",
+            "to70": {
+                "exrecise1": {
+                    "name": "Chin Ups",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Bodyweight",
+                    "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you), With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position. Repeat."
+                },
+                "exrecise2": {
+                    "name": "Calf Raises",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise3": {
+                    "name": "Dips",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise4": {
+                    "name": "Lateral Lunge",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Bodyweight",
+                    "instructions": "Hold your body with arms locked above the equipment, Lower your body slowly while leaning forward, flare out your elbows.! Raise your body above the bars until your arms are locked."
+                },
+                "exrecise5": {
+                    "name": "Side Plank Reach Through",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Bodyweight",
+                    "instructions": "Reach for the ceiling with your off hand.!Rotate at the mid and upper spine and reach through the open space between the floor and your torso.!Reach backwards, and then rotate back into the starting position."
+                },
+                "exrecise6": {
+                    "name": "Hollow Hold",
+                    "sets": "3",
+                    "reps": "15-25",
+                    "weight": "Bodyweight",
+                    "instructions": "Lay flat on the ground with your arms extended over head.!Pick your upper back and your legs off the ground. Your body should be in a banana shape.Hold in this position."
+                },
+                "exrecise7": {
+                    "name": "Elevated Pike Press",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Bodyweight",
+                    "instructions": "Use a bench or an object to elevate your feet.!Lower your head towards the floor by bending your elbows.!Push through your hands and return to the starting pike position.!Repeat"
+                },
+                "exrecise8": {
+                    "name": "Nordic Hamstring Curl",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Bodyweight",
+                    "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
+                }
+            },
+            "70to90": {
+                "exrecise1": {
+                    "name": "Chin Ups",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you).! With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position. Repeat."
+                },
+                "exrecise2": {
+                    "name": "Calf Raises",
+                    "sets": "4",
+                    "reps": "10-14",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe,! pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise3": {
+                    "name": "Dips",
+                    "sets": "4",
+                    "reps": "10-14",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe,! pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise4": {
+                    "name": "Lateral Lunge",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Hold your body with arms locked above the equipment.! Lower your body slowly while leaning forward.! flare out your elbows, Raise your body above the bars until your arms are locked."
+                },
+                "exrecise5": {
+                    "name": "Side Plank Reach Through",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Reach for the ceiling with your off hand.!Rotate at the mid and upper spine and reach through the open space between the floor and your torso.!Reach backwards, and then rotate back into the starting position."
+                },
+                "exrecise6": {
+                    "name": "Hollow Hold",
+                    "sets": "4",
+                    "reps": "15-25",
+                    "weight": "Bodyweight",
+                    "instructions": "Lay flat on the ground with your arms extended over head.!Pick your upper back and your legs off the ground.! Your body should be in a banana shape.!Hold in this position."
+                },
+                "exrecise7": {
+                    "name": "Elevated Pike Press",
+                    "sets": "4",
+                    "reps": "8-13",
+                    "weight": "Bodyweight",
+                    "instructions": "Use a bench or an object to elevate your feet.!Lower your head towards the floor by bending your elbows.!Push through your hands and return to the starting pike position.!Repeat"
+                },
+                "exrecise8": {
+                    "name": "Nordic Hamstring Curl",
+                    "sets": "4",
+                    "reps": "9-13",
+                    "weight": "Bodyweight",
+                    "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
+                }
+            },
+            "90to120": {
+                "exrecise1": {
+                    "name": "Chin Ups",
+                    "sets": "4",
+                    "reps": "10-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you), With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.! Slowly return to starting position.! Repeat."
+                },
+                "exrecise2": {
+                    "name": "Calf Raises",
+                    "sets": "4",
+                    "reps": "12-14",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates.! leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise3": {
+                    "name": "Dips",
+                    "sets": "4",
+                    "reps": "15-18",
+                    "weight": "Bodyweight",
+                    "instructions": "Balance on the balls of your feet on the platform or plates! leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe, pausing at the apex of the motion.! Repeat as necessary."
+                },
+                "exrecise4": {
+                    "name": "Lateral Lunge",
+                    "sets": "4",
+                    "reps": "10-13",
+                    "weight": "Bodyweight",
+                    "instructions": "Hold your body with arms locked above the equipment.!Lower your body slowly while leaning forward.! flare out your elbows, Raise your body above the bars until your arms are locked."
+                },
+                "exrecise5": {
+                    "name": "Side Plank Reach Through",
+                    "sets": "4",
+                    "reps": "9-13",
+                    "weight": "Bodyweight",
+                    "instructions": "Reach for the ceiling with your off hand.!Rotate at the mid and upper spine and reach through the open space between the floor and your torso.!Reach backwards, and then rotate back into the starting position."
+                },
+                "exrecise6": {
+                    "name": "Hollow Hold",
+                    "sets": "4",
+                    "reps": "20-25",
+                    "weight": "Bodyweight",
+                    "instructions": "Lay flat on the ground with your arms extended over head.!Pick your upper back and your legs off the ground.!Your body should be in a banana shape.!Hold in this position."
+                },
+                "exrecise7": {
+                    "name": "Elevated Pike Press",
+                    "sets": "4",
+                    "reps": "9-13",
+                    "weight": "Bodyweight",
+                    "instructions": "Use a bench or an object to elevate your feet.!Lower your head towards the floor by bending your elbows.!Push through your hands and return to the starting pike position.!Repeat"
+                },
+                "exrecise8": {
+                    "name": "Nordic Hamstring Curl",
+                    "sets": "4",
+                    "reps": "10-14",
+                    "weight": "Bodyweight",
+                    "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
+                }
+            }
+        },
+        {
+            "name": "Advanced Bodyweight Workout",
+            "level": "beginner",
+            "to70": {
+                "exrecise1": {
+                    "name": "Cable Chest Press",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "10 kg each side",
+                    "instructions": "Use a handle attachment.!The cables should be set to shoulder height.!Bring both of the handles to your chest and make sure you are in the center of the cable crossover.!Walk a few steps forward. Then press the weight forward.!From there, you should flex and extend at both the shoulders and elbows simultaneously."
+                },
+                "exrecise2": {
+                    "name": "Cable Goblet Squat",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "15kg",
+                    "instructions": "Start with a straight bar or easy bar attachment .,Get your elbows directly underneath the bar,!squat straight up and then walk back a few steps.!Break at your knees and hips to initiate the squat.!Make sure you maintain a flat back.!Squat all the way back to a standing position."
+                },
+                "exrecise3": {
+                    "name": "Cable Romanian Deadlift",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "10 kg",
+                    "instructions": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.!Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.!To protect yourself from injury, always maintain a flat back on any exercise."
+                },
+                "exrecise4": {
+                    "name": "Cable Pullover",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "15 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                }
+            },
+            "to90": { "exrecise1": {
+                "name": "Cable Chest Press",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "15 kg each side",
+                "instructions": "Use a handle attachment.!The cables should be set to shoulder height.!Bring both of the handles to your chest and make sure you are in the center of the cable crossover.!Walk a few steps forward. Then press the weight forward.!From there, you should flex and extend at both the shoulders and elbows simultaneously."
+            },
+            "exrecise2": {
+                "name": "Cable Goblet Squat",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "20kg",
+                "instructions": "Start with a straight bar or easy bar attachment .,Get your elbows directly underneath the bar,!squat straight up and then walk back a few steps.!Break at your knees and hips to initiate the squat.!Make sure you maintain a flat back.!Squat all the way back to a standing position."
+            },
+            "exrecise3": {
+                "name": "Cable Romanian Deadlift",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "15 kg",
+                "instructions": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.!Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.!To protect yourself from injury, always maintain a flat back on any exercise."
+            },
+            "exrecise4": {
+                "name": "Cable Pullover",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "20 kg",
+                "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+            }},
+            "to120": { 
+                "exrecise1": {
+                "name": "Cable Chest Press",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "20 kg each side",
+                "instructions": "Use a handle attachment.!The cables should be set to shoulder height.!Bring both of the handles to your chest and make sure you are in the center of the cable crossover.!Walk a few steps forward. Then press the weight forward.!From there, you should flex and extend at both the shoulders and elbows simultaneously."
+            },
+            "exrecise2": {
+                "name": "Cable Goblet Squat",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "25kg",
+                "instructions": "Start with a straight bar or easy bar attachment .,Get your elbows directly underneath the bar,!squat straight up and then walk back a few steps.!Break at your knees and hips to initiate the squat.!Make sure you maintain a flat back.!Squat all the way back to a standing position."
+            },
+            "exrecise3": {
+                "name": "Cable Romanian Deadlift",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "20 kg",
+                "instructions": "Start with a straight bar or ez bar attachment set to the bottom of the machine. Squat the weight up into a standing position and walk a few steps back.!Push your butt back to initiate the movement and then push your butt forward until you're back in a standing position.!To protect yourself from injury, always maintain a flat back on any exercise."
+            },
+            "exrecise4": {
+                "name": "Cable Pullover",
+                "sets": "4",
+                "reps": "8-12",
+                "weight": "30 kg",
+                "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+            }}
+        },
+        {
+            "name": "Advanced Bodyweight Workout",
+            "level": "beginner",
+            "to70": {},
+            "to90": {},
+            "to120": {}
+        }
+    ]
+}
