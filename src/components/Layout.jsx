@@ -19,7 +19,7 @@ const Layout = () => {
       <button className='signup-button'><Link  className='signup-button-link'>Signup</Link></button>   
         </div>
       </nav>
-      <Outlet />
+      <Outlet/>
       <footer className='footer'>
         <div className='nav-links-div'>
           <Link  className='footer-link nav-bar-text'>About us</Link>
