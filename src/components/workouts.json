@@ -1,8 +1,13 @@
 {
-    "man-workout": [
+    "data":{
+    "manworkout": [
         {
             "name": "Advanced Bodyweight Workout",
-            "level": "advanced",
+            "level": "Advanced",
+            "goal":"Gain Muscle",
+            "exercises":"Chin Ups, Calf Raises, Lateral Lunge, Dips, Side Plank Reach Through, Hollow Hold, Elevated Pike Press, Nordic Hamstring Curl (8)",
+            "equipment":"Bodyweight",
+            "img":"https://media.musclewiki.com/media/uploads/BW_Advanced.png",
             "to70": {
                 "exrecise1": {
                     "name": "Chin Ups",
@@ -179,8 +184,12 @@
             }
         },
         {
-            "name": "Advanced Bodyweight Workout",
-            "level": "beginner",
+            "name": "Beginner Cable Workout",
+            "level": "Beginner",
+            "goal":"Gain Muscle",
+            "exercises":"Cable Chest Press, Cable Goblet Squat, Cable Romanian Deadlift, Cable Pullover (4)",
+            "equipment":"Cables",
+            "img":"https://media.musclewiki.com/media/uploads/Cable_Beginner.png",
             "to70": {
                 "exrecise1": {
                     "name": "Cable Chest Press",
@@ -270,11 +279,59 @@
             }}
         },
         {
-            "name": "Advanced Bodyweight Workout",
-            "level": "beginner",
-            "to70": {},
+            "name": "Intermediate Barbell Workout",
+            "level": "Intermediate",
+            "goal":"Gain Muscle",
+            "exercises":"Barbell Bench Press, Barbell Overhead Press, Barbell Reverse Lunge, Barbell Hip Thrust, Barbell Seated Calf Raise, Barbell Bent Over Row (6)",
+            "equipment":"Burbell",
+            "img":"https://media.musclewiki.com/media/uploads/BB_Inter.png",
+            "to70": {
+                "exrecise1": {
+                    "name": "Cable Pullover",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "40 kg",
+                    "instructions": "Lay flat on the bench with your feet on the ground. With straight arms unrack the bar.!Lower the bar to your mid chest.!Raise the bar until you've locked your elbows."
+                },
+                "exrecise2": {
+                    "name": "Cable Pullover",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "30 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                },
+                "exrecise3": {
+                    "name": "Cable Pullover",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "30 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                },
+                "exrecise4": {
+                    "name": "Cable Pullover",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "30 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                },
+                "exrecise5": {
+                    "name": "Cable Pullover",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "30 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                },
+                "exrecise6": {
+                    "name": "Cable Pullover",
+                    "sets": "4",
+                    "reps": "8-12",
+                    "weight": "30 kg",
+                    "instructions": "You can use any attachment. Cable should be set all the way to the top of the machine.!Grab your attachment and walk a few steps back. Push your butt back to where you are leaning forward somewhat.!Initiate the movement with your shoulders and not your elbows. Imagine trying to pull the attachment through your thighs at the bottom."
+                }
+            },
             "to90": {},
             "to120": {}
         }
     ]
+}
 }

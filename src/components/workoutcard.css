@@ -1,0 +1,24 @@
+
+.card-container{
+ width: 315px;
+ height: 500px;
+ border: 2px solid;
+ border-radius: 20px;
+ border-color: black;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+position: relative;
+margin: 0;
+}
+.bold{
+    font-weight: bold;
+}
+.content{
+    justify-content: start;
+
+}
+.space{
+    padding: 10px;
+}
