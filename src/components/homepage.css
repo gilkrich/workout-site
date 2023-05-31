@@ -1,0 +1,158 @@
+.hero-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
+
+.hero-button {
+    width: 200px;
+    height: 50px;
+    color: black;
+    border: 0;
+    font-size: medium;
+    border-radius: 30px;
+}
+
+.hero-header {
+    font-size: xxx-large;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero-sub-text {
+    font-size: x-large;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.why-us-item {
+    width: 220px;
+    text-align: center;
+}
+
+.why-us-image {
+    width: 150px;
+    height: 200px;
+}
+
+.why-us-container {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.why-us-header {
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+
+.ad-image {
+    width: 50vw;
+    height: 450px;
+}
+
+.ad-section {
+    display: flex;
+    background-color: white;
+}
+
+.ad-text-side {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.ad-text {
+    width: 540px;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+}
+
+.ad-text-container {
+    text-align: center;
+}
+
+.most-popular {
+    text-align: center;
+    height: 500px;
+    background-color: white;
+}
+
+.thinking-person {
+    width: 280px;
+    border-radius: 50%;
+}
+
+.pepole-ranks {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.ranks-header {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    justify-content: center;
+}
+
+
+.ranks-images {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.ranks-content {
+    display: flex;
+    height: 360px;
+    justify-content: space-evenly;
+}
+
+.ranks1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ranks2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.ranks3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ranks4 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ranks5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
