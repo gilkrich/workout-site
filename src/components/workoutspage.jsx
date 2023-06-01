@@ -12,7 +12,8 @@ const Workoutspage = ({workoutData,setWorkoutData}) => {
           goal={item.goal} 
           difficulty={item.level}
           exercises={item.exercises}
-          equipment={item.equipment}/>
+          equipment={item.equipment}
+          />
         )
       })}
     </div>

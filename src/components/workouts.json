@@ -1,4 +1,4 @@
-{
+
     "data": {
         "manworkout": [
             {
@@ -65,8 +65,8 @@
                         "weight": "Bodyweight",
                         "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
                     }
-                },
-                "70to90": {
+                   },
+                "to90": {
                     "exrecise1": {
                         "name": "Chin Ups",
                         "sets": "4",
@@ -124,7 +124,7 @@
                         "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
                     }
                 },
-                "90to120": {
+                "to120": {
                     "exrecise1": {
                         "name": "Chin Ups",
                         "sets": "4",
@@ -418,6 +418,7 @@
                         "instructions": "Grab a pull-up bar with an overhand grip, slightly wider than shoulder-width apart. Hang with your arms fully extended. Pull yourself up until your chin is above the bar, then lower yourself back down to the starting position."
                     }
                 },
+           
                 "to90": {
                     "exercise1": {
                         "name": "Push-ups",
