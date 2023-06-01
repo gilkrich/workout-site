@@ -62,7 +62,15 @@
 .ad-section {
     display: flex;
     background-color: white;
+    margin-top: 140px;
 }
+.ad-section-two {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    margin-bottom: 80px;
+}
+
 
 .ad-text-side {
     width: 50vw;
@@ -85,7 +93,6 @@
 
 .most-popular {
     text-align: center;
-    height: 500px;
     background-color: white;
 }
 
@@ -155,4 +162,14 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+
+.popular-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    row-gap: 30px;
+
 }

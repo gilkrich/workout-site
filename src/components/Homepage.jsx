@@ -5,9 +5,9 @@ import blonde from './images/blonde.jpg'
 import lift from './images/lift.png'
 import idea from './images/idea.png'
 import food from './images/food.png'
+import WorkoutCard from './WorkoutCard'
 import "./homepage.css"
-
-const Homepage = () => {
+const Homepage = ({workoutData}) => {
   return (
     <div>
       <img src={heroimg} alt="" width='100%' height='820px' />
@@ -46,8 +46,36 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className='ad-section-two'>
+        <img src={blonde} alt="" className='ad-image'/>
+        <div className='ad-text-side'>
+          <div className='ad-text-container'>
+            <h2>weight training</h2>
+             <p className='ad-text'>Ignite your strength and transform your body with our revolutionary weight training programs.Unleash your full potential as our expertly crafted workouts maximize muscle development and boost physical performance.Sculpt your physique and achieve a leaner body composition.Elevate your confidence and mental well-being as you experience the empowering effects of weight training, releasing endorphins and fostering a positive mindset.</p>
+          </div>
+          <div className='ad-text-container'>
+            <h2>general fittnes</h2>
+            <p className='ad-text'>Embark on a journey to holistic well-being with our comprehensive general fitness programs.Unlock the power of a healthy heart and vibrant cardiovascular system as you engage in invigorating exercises that elevate your endurance, and reduce the risk of chronic conditions through our dynamic general fitness routines that enhance your longevity and overall quality of life.</p>
+          </div>
+        </div>
+      </div>
       <div className='most-popular'>
          <h1>most popular workouts right now</h1>
+         <div className='popular-cards'>
+          {workoutData&&workoutData.filter(item=>item.name=="Advanced Bodyweight Workout"||item.name=="Beginner Cable Workout"||item.name=="Beginner Cable Workout"||"Intermediate Barbell Workout").map((item,index)=>{
+            return(
+               <WorkoutCard key={index}
+               image={item.img}
+                name={item.name}
+                goal={item.goal} 
+                difficulty={item.level}
+                exercises={item.exercises}
+                equipment={item.equipment}
+                />
+            )
+          }                    
+          )}
+         </div>
       </div>
       <div className='pepole-ranks'>
            <div className='ranks-header'>

@@ -14,7 +14,7 @@
                     "sets": "3",
                     "reps": "6-10",
                     "weight": "Bodyweight",
-                    "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you), With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position. Repeat."
+                    "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you). ! With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.Slowly return to starting position. Repeat."
                 },
                 "exrecise2": {
                     "name": "Calf Raises",
@@ -66,7 +66,7 @@
                     "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
                 }
             },
-            "70to90": {
+            "to90": {
                 "exrecise1": {
                     "name": "Chin Ups",
                     "sets": "4",
@@ -79,7 +79,7 @@
                     "sets": "4",
                     "reps": "10-14",
                     "weight": "Bodyweight",
-                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, then push through the balls of your feet like you are standing tip toe,! pausing at the apex of the motion.! Repeat as necessary."
+                    "instructions": "Balance on the balls of your feet on the platform or plates, leaning forward to use the wall to assist with balance.! Lower the heels of your feet towards the ground and pause, !then push through the balls of your feet like you are standing tip toe,pausing at the apex of the motion.! Repeat as necessary."
                 },
                 "exrecise3": {
                     "name": "Dips",
@@ -124,7 +124,7 @@
                     "instructions": "Go to your knees and ask someone to hold your ankles.!Put your hands in front of you.!With a slight bend in your knees slowly bring your body to the ground (slower is better).!Push up and reset to the starting position."
                 }
             },
-            "90to120": {
+            "to120": {
                 "exrecise1": {
                     "name": "Chin Ups",
                     "sets": "4",
