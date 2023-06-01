@@ -6,8 +6,9 @@ function workoutCard({image,name,goal,difficulty,exercises,equipment}) {
   return (
     <span className='card-container'>
      <Link to={`${name}`}>
-     <img src={image} alt="" style={{width:"315px",borderRadius:"20px 20px 0 0"}}/>
+     <img src={image} alt="" style={{width:"315px",height:"180px",borderRadius:"15px 15px 0 0"}}/>
      </Link>    
+
         <h2>{name}</h2>
         <div className='content'>
         <div className='space'> <span className='bold'>Goal:</span>{goal}</div>

@@ -13,8 +13,9 @@ const Layout = () => {
         </div>
         <div id='nav-links-side'>
           <Link to='workouts' className='nav-link'>workouts</Link>
-          <Link className='nav-link'>placeholder</Link>
-          <Link className='nav-link'>placeholde</Link>
+          <Link to='/' className='nav-link'>Home</Link>
+          <Link  to='calendar'className='nav-link'>Calendar</Link>
+          <Link  className='nav-link'>placeholde</Link>
         </div>
         <div className='nav-login-side'>
           <button className='login-button'><Link className='login-button-link'>Login</Link></button>
