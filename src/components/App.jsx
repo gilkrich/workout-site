@@ -6,6 +6,7 @@ import Workoutspage from './Workoutspage';
 import Homepage from './Homepage';
 import {data} from './workouts.json'
 import WorkoutCard from './WorkoutCard';
+import Calendar1 from './Calendar';
 function App() {
  const [workoutData,setWorkoutData] =useState();
  useEffect(()=>{
@@ -18,6 +19,7 @@ function App() {
     <Route path='/' element={<Layout />}>
           <Route path='/' element={<Homepage/>}></Route>
           <Route path='workouts' element={<Workoutspage workoutData={workoutData} setWorkoutData={setWorkoutData}/>}></Route>
+          <Route path='calendar' element={<Calendar1/>}></Route>
           </Route>
     </Routes>
     </div>

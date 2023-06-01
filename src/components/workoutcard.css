@@ -2,15 +2,17 @@
 .card-container{
  width: 315px;
  height: 500px;
- border: 2px solid;
- border-radius: 20px;
- border-color: black;
+ border-radius: 10px 10px 10px ;
+ box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+ transition: 0.3s;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
- align-items: center;
 position: relative;
 margin: 0;
+}
+.card-container:hover{
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
 }
 .bold{
     font-weight: bold;

@@ -14,7 +14,7 @@ const Layout = () => {
         <div id='nav-links-side'>
           <Link to='workouts' className='nav-link'>workouts</Link>
           <Link to='/' className='nav-link'>Home</Link>
-          <Link  className='nav-link'>placeholder</Link>
+          <Link  to='calendar'className='nav-link'>Calendar</Link>
           <Link  className='nav-link'>placeholde</Link>
         </div>
         {/* <div className='nav-login-side'>
