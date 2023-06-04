@@ -14,7 +14,6 @@ import Signuppage from './Signuppage';
 function App() {
   const [isloggedout,setloggedout]= useState(false)
  const [workoutData,setWorkoutData] =useState();
- const [workoutfakeData,setWorkoutfakeData] =useState();
  useEffect(()=>{
    setWorkoutData(data&&data?.manworkout);
    setWorkoutfakeData(data&&data?.manworkout);

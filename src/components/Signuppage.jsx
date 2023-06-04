@@ -56,3 +56,5 @@ function Signuppage({isloggedout,setloggedout}) {
 }
 
 export default Signuppage
+
+export default Signuppage
