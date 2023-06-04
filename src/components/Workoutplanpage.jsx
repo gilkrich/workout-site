@@ -1,21 +1,21 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import './workoutplan.css'
 import { data } from './workouts.json'
-
 
 const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   let { name } = useParams();
   const [currentWorkout, setCurrentWorkout] = useState();
+  const [currentWorkout2, setCurrentWorkout2] = useState();
   const [currentBmi, setBmi] = useState('to90');
   const [showingBmi, setShowingBmi] = useState();
   const [height, setHeight] = useState(160);
   const [weight, setWeight] = useState(50);
 
+
   useEffect(() => {
     setCurrentWorkout(workoutData?.find(obj => obj?.name == name));
-    console.log(workoutData);
   }, [workoutData])
 
   function Bmicalc(weight, height) {
@@ -31,6 +31,17 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
       setBmi('to120')
     } else if (showingBmi >= 30) {
       setBmi('to120')
+    }
+  }
+
+  function changeworkout() {
+    if (localStorage.getItem('loggeduser')) {
+      let user = JSON.parse(localStorage.getItem('loggeduser'))
+      let users = JSON.parse(localStorage.getItem('users')).filter(item => item.email != user.email)
+      const newperson = { email: user.email, password: user.password, verify: user.verify, creditnum: user.creditnum, confirmationnum: user.confirmationnum, myworkout: currentWorkout?.name };
+      localStorage.setItem('loggeduser', JSON.stringify(newperson))
+      users.push(newperson)
+      localStorage.setItem('users', JSON.stringify(users))
     }
   }
 
@@ -60,33 +71,42 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
         <h1>Best for {currentWorkout?.goal}</h1>
         <h3>Exercises : {currentWorkout?.exercises}</h3>
       </div>
-      <div className='workout-text'>
-        {currentWorkout && Object.values(currentWorkout[currentBmi])?.map((item, index) => {
-          return (
-            <div className=' work-hard'>
-              <div className='workout-card'>
-                <h2 className='exercises-name'>{item.name}</h2>
-                <h2>{item.sets} sets</h2>
-                <h2>{item.reps} reps</h2>
-                <h2>weight to use - {item.weight}</h2>
-                <ol className='list'>
-                  {item.instructions.split("!").map(
-                    item => {
-                      return (
-                        <li class="list-item"><span>{item}</span></li>
-                      )
-                    }
-                  )}
-                </ol>
-              </div>
-              <div className='workout-images'>
-                <h1>image</h1>
-              </div>
-            </div>
 
-          )
-        })}
-      </div>
+      {/* {localStorage.getItem('loggeduser')&&!JSON.parse(localStorage.getItem('loggeduser')).creditnum&&<div className='show-if-payed'>
+        <button className='current-button' onClick={() => changeworkout()}>Make current workout</button>
+        <div className='workout-text'>
+          {currentWorkout && Object.values(currentWorkout[currentBmi])?.map((item, index) => {
+            return (
+              <div className=' work-hard'>
+                <div className='workout-card'>
+                  <h2 className='exercises-name'>{item.name}</h2>
+                  <h2>{item.sets} sets</h2>
+                  <h2>{item.reps} reps</h2>
+                  <h2>weight to use - {item.weight}</h2>
+                  <ol className='list'>
+                    {item.instructions.split("!").map(
+                      item => {
+                        return (
+                          <li class="list-item"><span>{item}</span></li>
+                        )
+                      }
+                    )}
+                  </ol>
+                </div>
+                <div className='workout-images'>
+                  <h1>image</h1>
+                </div>
+              </div>
+
+            )
+          })}
+        </div>
+      </div>} */}
+
+
+
+
+
 
     </div>
   )

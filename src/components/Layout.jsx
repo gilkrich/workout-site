@@ -1,8 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./layout.css"
-import { Outlet, Link, useParams } from 'react-router-dom'
+import { Outlet, Link, useParams,  } from 'react-router-dom'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import MenuIcon from '@mui/icons-material/Menu';
+import Hamburger from 'hamburger-react';
 
-const Layout = () => {
+const Layout = ({isloggedout,setloggedout}) => {
+  // const [isloggedout,setloggedout]= useState(false)
+  const [signbutton,setsignbutton]= useState()
+  const [navbar,setnavbar]= useState()
+    
+  function showout() {
+    setsignbutton(!signbutton)
+  }
+
+  function signout() {
+    if (localStorage.getItem('loggeduser')) {
+      localStorage.removeItem("loggeduser")
+      setloggedout(true)
+    }
+  }
+
+   
   return (
     <div className='main-container'>
       <nav id='navbar'>
@@ -17,12 +36,48 @@ const Layout = () => {
           <Link  to='calendar'className='nav-link'>Calendar</Link>
           <Link  className='nav-link'>placeholde</Link>
         </div>
-        <div className='nav-login-side'>
-          <button className='login-button'><Link className='login-button-link'>Login</Link></button>
-          <button className='signup-button'><Link className='signup-button-link'>Signup</Link></button>
+        <Hamburger color="white" className='menu-icon' onToggle={setnavbar}/>
+        {localStorage.getItem('loggeduser')&&<div className='signout-container'>
+          <h4 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).email}</h4>
+          <AccountCircleIcon style={{fontSize:'xx-large'}} id='user-icon' onClick={()=>showout()}/>
+         {signbutton && <button className='signout-button' onClick={()=>signout()}><Link>signout</Link></button> }
         </div>
+        }
+       {!localStorage.getItem('loggeduser')&&<div className='nav-login-side'>
+          <button className='login-button'><Link className='login-button-link' to='user'>Login</Link></button>
+          <button className='signup-button'><Link className='signup-button-link' to='user/signup'>Signup</Link></button>
+        </div>}
       </nav>
+      
+      {navbar&&<nav id='navbar-mobile'>
+        <div id='nav-links-side-mobile'>
+          <Link to='workouts' className='nav-link'>workouts</Link>
+          <Link to='/' className='nav-link'>Home</Link>
+          <Link  to='calendar'className='nav-link'>Calendar</Link>
+          <Link  className='nav-link'>placeholde</Link>
+        </div>
+        {!localStorage.getItem('loggeduser')&&<div className='nav-login-side-mobile'>
+         <Link className='nav-link' to='user'>Login</Link>
+         <Link className='nav-link' to='user/signup'>Signup</Link>
+        </div>}
+        {localStorage.getItem('loggeduser')&&<div className='mobile-icon-container'>
+        <h3 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).email}</h3>
+          <AccountCircleIcon style={{fontSize:'xx-large'}} className='user-icon'/>
+          <Link  className='nav-link' onClick={()=>signout()}>signout</Link>
+        </div>
+        }
+      </nav>}
+
+   
+
+
+
       <Outlet />
+
+
+
+
+
       <footer className='footer'>
         <div className='nav-links-div'>
           <Link className='footer-link nav-bar-text'>About us</Link>

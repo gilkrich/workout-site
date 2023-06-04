@@ -1,5 +1,5 @@
 .hero-container {
-    width: 500px;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,8 +62,8 @@
 .ad-section {
     display: flex;
     background-color: white;
-    margin-top: 140px;
 }
+
 .ad-section-two {
     display: flex;
     flex-direction: row-reverse;
@@ -81,7 +81,6 @@
 }
 
 .ad-text {
-    width: 540px;
     margin: auto;
     text-align: center;
     font-size: medium;
@@ -134,6 +133,7 @@
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: center;
+    row-gap: 7px;
 }
 
 .ranks2 {
@@ -141,6 +141,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    row-gap: 7px;
 }
 
 .ranks3 {
@@ -148,6 +149,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 7px;
 }
 
 .ranks4 {
@@ -155,6 +157,7 @@
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: center;
+    row-gap: 7px;
 }
 
 .ranks5 {
@@ -162,14 +165,113 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    row-gap: 7px;
 }
 
-.popular-cards{
+.popular-cards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 60px;
     margin-bottom: 60px;
     row-gap: 30px;
+}
 
+.stars{
+    width: 140px;
+}
+
+@media screen and (max-width: 1050px) {
+    .hero-header {
+        font-size: xx-large;
+    }
+
+    .hero-sub-text {
+        font-size: larger;
+    }
+
+    .hero-button {
+        width: 150px;
+    }
+
+    .ad-section{
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .ad-image{
+        width: 100vw;
+    }
+
+    .ad-text-side{
+        width: 100vw;
+    }
+
+    .ad-section-two{
+        flex-direction: column;
+    }
+
+    .ranks-content{
+        flex-direction: column;
+        height: fit-content;
+        row-gap: 26px;
+    }
+
+    .ranks1{
+        flex-direction: column;
+    }
+
+    .ranks4{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 775px) {
+    .hero-container {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why-us-image{
+        width: 220px;
+        height: 220px;
+    }
+
+    .why-us-container{
+        flex-direction: column;
+    }
+
+    .why-us-text{
+             font-size: x-large;
+             
+    }
+    
+    .ranks-header{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 570px) {
+   .why-us-image{
+    width: 160px;
+    height: 160px;
+   }
+
+   .why-us-text{
+    font-size: larger;
+   }
+
+   .ad-text{
+    font-size: small;
+    font-weight: bolder;
+   }
 }

@@ -1,0 +1,52 @@
+.workout-page{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  justify-content: center;
+ }
+
+ .signup-button-workoutpage{
+  background-color: steelblue;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+ }
+
+ .signup-button-workoutpage:hover{
+  opacity: 0.9;
+ }
+
+ .if-logged{
+  text-align: center;
+ }
+
+ .level-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 5px;
+ }
+
+ .level-button{
+  width: 90px;
+  height: 30px;
+  border-color:steelblue;
+  box-shadow: none;
+  background-color: white;
+ }
+
+ .level-button:hover{
+  background-color: rgb(172, 187, 202);
+  opacity: 0.9;
+ }
+
+ .workouts-title{
+  text-align: center;
+  margin-top: 35px;
+ }
