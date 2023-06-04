@@ -3,8 +3,8 @@ import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from '@fullcalendar/interaction'
 import { render } from '@fullcalendar/core/preact';
-import { Calendar, formatDate } from '@fullcalendar/core';
-import { useState, useEffect } from 'react';
+import { Calendar,formatDate } from '@fullcalendar/core';
+import { useState ,useEffect } from 'react';
 import timeGridPlugin from '@fullcalendar/timegrid'
 function Calendar1({ workoutData, setWorkoutData }) {
   const [events, setEvents] = useState([])
@@ -109,5 +109,5 @@ function Calendar1({ workoutData, setWorkoutData }) {
 
 
 }
-export default Calendar1
 
+export default Calendar1
