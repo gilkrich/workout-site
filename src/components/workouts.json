@@ -7,38 +7,7 @@
                 "goal": "Gain Muscle",
                 "exercises": "Chin Ups, Calf Raises, Lateral Lunge, Dips, Side Plank Reach Through, Hollow Hold, Elevated Pike Press, Nordic Hamstring Curl (8)",
                 "equipment": "Bodyweight",
-                "calander":  [
-                    { "title":"yes", "start": "2023-06-01" ,"color":"green" },
-                    { "title":"yes", "start": "2023-06-02" ,"color":"green" },
-                    { "title":"yes", "start": "2023-06-03" ,"color":"green" },
-                    { "title": "rest", "start": "2023-06-04" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-05" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-06" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-07" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-08","color":"green" },
-                    { "title": "rest", "start": "2023-06-09" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-10" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-11" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-12" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-13" ,"color":"green"},
-                    { "title": "rest", "start": "2023-06-14" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-15" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-16" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-17" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-18" ,"color":"green"},
-                    { "title": "rest", "start": "2023-06-19" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-20" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-21" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-22" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-23" ,"color":"green"},
-                    { "title": "rest", "start": "2023-06-24" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-25" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-26","color":"green" },
-                    { "title":"yes", "start": "2023-06-27" ,"color":"green"},
-                    { "title":"yes", "start": "2023-06-28" ,"color":"green"},
-                    { "title": "rest", "start": "2023-06-29" ,"color":"red"},
-                    { "title":"yes", "start": "2023-06-30" ,"color":"green"}
-                  ],
+                "images": ["https://i.pinimg.com/736x/a8/1e/ac/a81eac1632a086df906d75ddd2cbcbd3.jpg","https://th.bing.com/th/id/OIP.8RDdJr1kc6tQ1-Q1nSwD4AHaE8?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.KVu3v-UUuZ1MwyUGAO2lywHaFF?pid=ImgDet&rs=1","https://th.bing.com/th/id/R.4ffe05244e0ba647e2a9242ee6522a6c?rik=1fjxLEgogh8Lmw&riu=http%3a%2f%2ftrainwithfinishers.com%2fwp-content%2fuploads%2f2014%2f08%2flateral-lunge.png&ehk=mP7e%2fitVd92nBVJw%2bXyHvnstAEFruoriHnGbn0zSTqw%3d&risl=&pid=ImgRaw&r=0","https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/701/images/slideshow2/12-hip-up-1493927281.jpg?resize=480:*","https://th.bing.com/th/id/R.21d5654b51e12dbff51efac942d1fc78?rik=CIFdSI8PeH%2bCTw&pid=ImgRaw&r=0","https://hiitacademy.com/wp-content/uploads/2015/02/feet_elevated_pike_push_ups-1024x409.jpg","https://th.bing.com/th/id/OIP.gTu0ohwAV2rkbA7CYMrSfQHaHa?pid=ImgDet&rs=1"],
                 "img": "https://media.musclewiki.com/media/uploads/BW_Advanced.png",
                 "to70": {
                     "exrecise1": {
@@ -46,7 +15,7 @@
                         "sets": "3",
                         "reps": "6-10",
                         "weight": "Bodyweight",
-                        "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you), With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position. Repeat."
+                        "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you), With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position.!Repeat."
                     },
                     "exrecise2": {
                         "name": "Calf Raises",
@@ -104,7 +73,7 @@
                         "sets": "4",
                         "reps": "8-12",
                         "weight": "Bodyweight",
-                        "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you).! With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position. Repeat."
+                        "instructions": "Grab the bar shoulder width apart with a supinated grip (palms facing you).! With your body hanging and arms fully extended, pull yourself up until your chin is past the bar.!Slowly return to starting position.! Repeat."
                     },
                     "exrecise2": {
                         "name": "Calf Raises",
@@ -319,6 +288,7 @@
                 "goal": "Build Strength",
                 "exercises": "Dumbbell Bench Press, Dumbbell Bulgarian Split Squat, Dumbbell Romanian Deadlift, Dumbbell Shoulder Press (4)",
                 "equipment": "Dumbbells",
+                "images":["https://th.bing.com/th/id/OIP.yxbEoqdZ5bclVhKqy1qRJwHaGC?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.kN8R03NGJx83if6Zj89nBwHaEp?pid=ImgDet&rs=1","https://media1.popsugar-assets.com/files/thumbor/yiPJAN_ngJpGtPNFmn27K7QhYS4/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/11/08/239/n/1922729/69d14a792502d7a9_deadlift/i/Romanian-Deadlift.jpg","https://i.pinimg.com/474x/64/2e/b7/642eb79048cf6efe8a3bfadb56ff831f--overhead-press-shoulder-workout.jpg"],
                 "img": "https://th.bing.com/th/id/OIP.9DKIkPD7PoV3f7GxxC06qQHaEK?pid=ImgDet&rs=1",
                 "to70": {
                     "exercise1": {
@@ -522,37 +492,38 @@
                 "goal": "Build Muscle and Improve Flexibility",
                 "exercises": "Banded Squats, Banded Chest Press, Banded Rows, Banded Shoulder Press, Banded Glute Bridges",
                 "equipment": "Resistance Bands",
+                "images":["https://th.bing.com/th/id/R.9803bc01b7649a516b9a99b6ccd2968c?rik=RAHuzWD9K2ZHiw&pid=ImgRaw&r=0","https://th.bing.com/th/id/OIP.BYW8ZTt_l2cIBjcM25BAmgHaEw?pid=ImgDet&rs=1","https://th.bing.com/th/id/R.4510197e9f11d97acfe2ce7a413d3b7d?rik=1tgmxG85GqI3jg&pid=ImgRaw&r=0","https://th.bing.com/th/id/R.ba747ad1e0ff7711e7fd9b9cc253358e?rik=AgqW3Z%2bY90SN7g&riu=http%3a%2f%2fassets.menshealth.co.uk%2fmain%2fthumbs%2f33014%2fresistance-band-shoulder-press.jpg&ehk=kXAyp2PsFX3uU1%2f5dXm8zE1JajAXK6y1ux4LR%2ftCmMc%3d&risl=&pid=ImgRaw&r=0","https://th.bing.com/th/id/R.ca8125d60d7f60ba8d8e70189d62cb84?rik=kZ3YF8bMIPrPwA&riu=http%3a%2f%2fs3.amazonaws.com%2fprod.skimble%2fassets%2f2060682%2fimage_iphone.jpg&ehk=muNEN3jBLF1ykiQjABPRsDDMh6Gk738CYqFvMSz7VTY%3d&risl=&pid=ImgRaw&r=0"],
                 "img": "https://media.musclewiki.com/media/uploads/Band_Beginner.png",
                 "to70": {
                     "exercise1": {
                         "name": "Banded Squats",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart. Hold the handles or ends of the band at your shoulders. Lower your body by bending your knees and pushing your hips back. Keep your chest up and knees aligned with your toes. Push through your heels to return to the starting position."
+                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart.! Hold the handles or ends of the band at your shoulders.! Lower your body by bending your knees and pushing your hips back.! Keep your chest up and knees aligned with your toes.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Banded Chest Press",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Attach the band to a sturdy anchor point at chest height. Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability. Push the handles forward until your arms are straight, then slowly release back to the starting position."
+                        "instructions": "Attach the band to a sturdy anchor point at chest height.! Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability.! Push the handles forward until your arms are straight, then slowly release back to the starting position."
                     },
                     "exercise3": {
                         "name": "Banded Rows",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Secure the band at chest height. Hold the handles or ends of the band and step back to create tension. Keep your knees slightly bent, hinge forward at the hips, and keep your back straight. Pull the handles toward your body, squeezing your shoulder blades together. Slowly release back to the starting position."
+                        "instructions": "Secure the band at chest height.! Hold the handles or ends of the band and step back to create tension.! Keep your knees slightly bent, hinge forward at the hips, and keep your back straight.! Pull the handles toward your body, squeezing your shoulder blades together.! Slowly release back to the starting position."
                     },
                     "exercise4": {
                         "name": "Banded Shoulder Press",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Stand on the band with your feet shoulder-width apart. Hold the handles or ends of the band at shoulder height, palms facing forward. Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
+                        "instructions": "Stand on the band with your feet shoulder-width apart.! Hold the handles or ends of the band at shoulder height, palms facing forward.! Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
                     },
                     "exercise5": {
                         "name": "Banded Glute Bridges",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Lie on your back with your knees bent and feet flat on the ground. Place the band above your knees. Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders. Squeeze your glutes at the top, then lower your hips back down."
+                        "instructions": "Lie on your back with your knees bent and feet flat on the ground.! Place the band above your knees.! Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders.! Squeeze your glutes at the top, then lower your hips back down."
                     }
                 },
                 "to90": {
@@ -560,31 +531,31 @@
                         "name": "Banded Squats",
                         "sets": "3",
                         "reps": "12-15",
-                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart. Hold the handles or ends of the band at your shoulders. Lower your body by bending your knees and pushing your hips back. Keep your chest up and knees aligned with your toes. Push through your heels to return to the starting position."
+                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart.! Hold the handles or ends of the band at your shoulders.! Lower your body by bending your knees and pushing your hips back.! Keep your chest up and knees aligned with your toes.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Banded Chest Press",
                         "sets": "3",
                         "reps": "12-15",
-                        "instructions": "Attach the band to a sturdy anchor point at chest height. Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability. Push the handles forward until your arms are straight, then slowly release back to the starting position."
+                        "instructions": "Attach the band to a sturdy anchor point at chest height.! Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability.! Push the handles forward until your arms are straight, then slowly release back to the starting position."
                     },
                     "exercise3": {
                         "name": "Banded Rows",
                         "sets": "3",
                         "reps": "12-15",
-                        "instructions": "Secure the band at chest height. Hold the handles or ends of the band and step back to create tension. Keep your knees slightly bent, hinge forward at the hips, and keep your back straight. Pull the handles toward your body, squeezing your shoulder blades together. Slowly release back to the starting position."
+                        "instructions": "Secure the band at chest height.! Hold the handles or ends of the band and step back to create tension.! Keep your knees slightly bent, hinge forward at the hips, and keep your back straight.! Pull the handles toward your body, squeezing your shoulder blades together.! Slowly release back to the starting position."
                     },
                     "exercise4": {
                         "name": "Banded Shoulder Press",
                         "sets": "3",
                         "reps": "12-15",
-                        "instructions": "Stand on the band with your feet shoulder-width apart. Hold the handles or ends of the band at shoulder height, palms facing forward. Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
+                        "instructions": "Stand on the band with your feet shoulder-width apart.! Hold the handles or ends of the band at shoulder height, palms facing forward.! Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
                     },
                     "exercise5": {
                         "name": "Banded Glute Bridges",
                         "sets": "3",
                         "reps": "12-15",
-                        "instructions": "Lie on your back with your knees bent and feet flat on the ground. Place the band above your knees. Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders. Squeeze your glutes at the top, then lower your hips back down."
+                        "instructions": "Lie on your back with your knees bent and feet flat on the ground.! Place the band above your knees.! Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders.! Squeeze your glutes at the top, then lower your hips back down."
                     }
                 },
                 "to120": {
@@ -592,31 +563,31 @@
                         "name": "Banded Squats",
                         "sets": "4",
                         "reps": "12-15",
-                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart. Hold the handles or ends of the band at your shoulders. Lower your body by bending your knees and pushing your hips back. Keep your chest up and knees aligned with your toes. Push through your heels to return to the starting position."
+                        "instructions": "Stand on the middle of a resistance band with your feet shoulder-width apart.! Hold the handles or ends of the band at your shoulders.! Lower your body by bending your knees and pushing your hips back.! Keep your chest up and knees aligned with your toes.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Banded Chest Press",
                         "sets": "4",
                         "reps": "12-15",
-                        "instructions": "Attach the band to a sturdy anchor point at chest height. Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability. Push the handles forward until your arms are straight, then slowly release back to the starting position."
+                        "instructions": "Attach the band to a sturdy anchor point at chest height.! Hold the handles or ends of the band and step forward to create tension. Stand with one foot in front of the other for stability.! Push the handles forward until your arms are straight, then slowly release back to the starting position."
                     },
                     "exercise3": {
                         "name": "Banded Rows",
                         "sets": "4",
                         "reps": "12-15",
-                        "instructions": "Secure the band at chest height. Hold the handles or ends of the band and step back to create tension. Keep your knees slightly bent, hinge forward at the hips, and keep your back straight. Pull the handles toward your body, squeezing your shoulder blades together. Slowly release back to the starting position."
+                        "instructions": "Secure the band at chest height.! Hold the handles or ends of the band and step back to create tension.! Keep your knees slightly bent, hinge forward at the hips, and keep your back straight.! Pull the handles toward your body, squeezing your shoulder blades together.! Slowly release back to the starting position."
                     },
                     "exercise4": {
                         "name": "Banded Shoulder Press",
                         "sets": "4",
                         "reps": "12-15",
-                        "instructions": "Stand on the band with your feet shoulder-width apart. Hold the handles or ends of the band at shoulder height, palms facing forward. Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
+                        "instructions": "Stand on the band with your feet shoulder-width apart.! Hold the handles or ends of the band at shoulder height, palms facing forward.! Press the handles upward until your arms are fully extended, then slowly lower them back down to the starting position."
                     },
                     "exercise5": {
                         "name": "Banded Glute Bridges",
                         "sets": "4",
                         "reps": "12-15",
-                        "instructions": "Lie on your back with your knees bent and feet flat on the ground. Place the band above your knees. Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders. Squeeze your glutes at the top, then lower your hips back down."
+                        "instructions": "Lie on your back with your knees bent and feet flat on the ground.! Place the band above your knees.! Engage your glutes and lift your hips off the ground until your body forms a straight line from your knees to your shoulders.! Squeeze your glutes at the top, then lower your hips back down."
                     }
                 }
             },
@@ -724,6 +695,7 @@
                 "goal": "Full-Body Strength and Muscle Building",
                 "exercises": "Cable Squat, Cable Romanian Deadlift, Cable Chest Fly, Cable Row",
                 "equipment": "Cable Machine, Cable Attachments, Bench",
+                "images":["https://th.bing.com/th/id/R.e35eda49a5bc690e3aeaf678c2c97d0a?rik=82EbGHHyFjXiRA&pid=ImgRaw&r=0","https://i.pinimg.com/564x/78/b1/e5/78b1e5a3fea02787461ad603fb99f405.jpg","https://th.bing.com/th/id/R.6e49e917d08a967d4be1263b5718d61e?rik=UlBWhAQbl7PPAw&pid=ImgRaw&r=0&sres=1&sresct=1","https://th.bing.com/th/id/R.99fb19a54bde605a914bfb2907a3b98f?rik=F%2bwS6gDROHpB0w&pid=ImgRaw&r=0"],
                 "img": "https://1.bp.blogspot.com/-xL0jJqdL0N8/Xz9BUUnTGJI/AAAAAAABx18/QvzNqe4MkxAuK367Z7n1ul4vopbWdPZlQCLcBGAsYHQ/s941/12967259_1304667792894567_1711297778943766856_o.jpg ",
                 "to70": {
                     "exercise1": {
@@ -731,28 +703,28 @@
                         "sets": "4",
                         "reps": "6-8",
                         "weight": "Use challenging weights",
-                        "instructions": "Attach a straight bar or handle to the cable machine at hip height. Stand facing away from the machine, holding the bar or handle behind your shoulders. Squat down, keeping your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Attach a straight bar or handle to the cable machine at hip height.! Stand facing away from the machine, holding the bar or handle behind your shoulders.! Squat down, keeping your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Cable Romanian Deadlift",
                         "sets": "4",
                         "reps": "6-8",
                         "weight": "Use challenging weights",
-                        "instructions": "Attach a straight bar or handle to the cable machine at ankle height. Stand facing the machine with your feet shoulder-width apart. Hinge at the hips, keeping your back straight, and grab the bar or handle. Stand up by squeezing your glutes and pulling the cable towards you. Lower the cable back down with controlled movement."
+                        "instructions": "Attach a straight bar or handle to the cable machine at ankle height.! Stand facing the machine with your feet shoulder-width apart.! Hinge at the hips, keeping your back straight, and grab the bar or handle.! Stand up by squeezing your glutes and pulling the cable towards you.! Lower the cable back down with controlled movement."
                     },
                     "exercise3": {
                         "name": "Cable Chest Fly",
                         "sets": "4",
                         "reps": "6-8",
                         "weight": "Use challenging weights",
-                        "instructions": "Attach handles to the cable machine at chest height. Stand in the center of the machine and grab the handles with your palms facing forward. Step forward with one leg for stability. With a slight bend in your elbows, open your arms out to the sides until you feel a stretch in your chest. Bring your arms back together in a controlled manner."
+                        "instructions": "Attach handles to the cable machine at chest height.! Stand in the center of the machine and grab the handles with your palms facing forward.! Step forward with one leg for stability.! With a slight bend in your elbows, open your arms out to the sides until you feel a stretch in your chest.! Bring your arms back together in a controlled manner."
                     },
                     "exercise4": {
                         "name": "Cable Row",
                         "sets": "4",
                         "reps": "6-8",
                         "weight": "Use challenging weights",
-                        "instructions": "Attach a straight bar or handle to the cable machine at waist height. Sit on a bench facing the machine, grab the bar or handle with a shoulder-width grip, and extend your arms. Keep your back straight and pull the bar or handle towards your waist, squeezing your shoulder blades together. Return to the starting position with control."
+                        "instructions": "Attach a straight bar or handle to the cable machine at waist height.! Sit on a bench facing the machine, grab the bar or handle with a shoulder-width grip, and extend your arms.! Keep your back straight and pull the bar or handle towards your waist, squeezing your shoulder blades together.! Return to the starting position with control."
                     }
                 },
                 "to90": {
@@ -760,29 +732,29 @@
                         "name": "Cable Squat",
                         "sets": "4",
                         "reps": "8-10",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for slightly higher reps."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at hip height.! Stand facing away from the machine, holding the bar or handle behind your shoulders.! Squat down, keeping your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Cable Romanian Deadlift",
                         "sets": "4",
                         "reps": "8-10",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for slightly higher reps."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at ankle height.! Stand facing the machine with your feet shoulder-width apart.! Hinge at the hips, keeping your back straight, and grab the bar or handle.! Stand up by squeezing your glutes and pulling the cable towards you.! Lower the cable back down with controlled movement."
                     },
                     "exercise3": {
                         "name": "Cable Chest Fly",
                         "sets": "4",
                         "reps": "8-10",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for slightly higher reps."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach handles to the cable machine at chest height.! Stand in the center of the machine and grab the handles with your palms facing forward.! Step forward with one leg for stability.! With a slight bend in your elbows, open your arms out to the sides until you feel a stretch in your chest.! Bring your arms back together in a controlled manner."
                     },
                     "exercise4": {
                         "name": "Cable Row",
                         "sets": "4",
                         "reps": "8-10",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for slightly higher reps."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at waist height.! Sit on a bench facing the machine, grab the bar or handle with a shoulder-width grip, and extend your arms.! Keep your back straight and pull the bar or handle towards your waist, squeezing your shoulder blades together.! Return to the starting position with control."
                     }
                 },
                 "to120": {
@@ -790,29 +762,29 @@
                         "name": "Cable Squat",
                         "sets": "5",
                         "reps": "6-8",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for higher sets."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at hip height.! Stand facing away from the machine, holding the bar or handle behind your shoulders.! Squat down, keeping your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Cable Romanian Deadlift",
                         "sets": "5",
                         "reps": "6-8",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for higher sets."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at ankle height.! Stand facing the machine with your feet shoulder-width apart.! Hinge at the hips, keeping your back straight, and grab the bar or handle.! Stand up by squeezing your glutes and pulling the cable towards you.! Lower the cable back down with controlled movement."
                     },
                     "exercise3": {
                         "name": "Cable Chest Fly",
                         "sets": "5",
                         "reps": "6-8",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for higher sets."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach handles to the cable machine at chest height.! Stand in the center of the machine and grab the handles with your palms facing forward.! Step forward with one leg for stability.! With a slight bend in your elbows, open your arms out to the sides until you feel a stretch in your chest.! Bring your arms back together in a controlled manner."
                     },
                     "exercise4": {
                         "name": "Cable Row",
                         "sets": "5",
                         "reps": "6-8",
-                        "weight": "Increase the weight gradually",
-                        "instructions": "Follow the same instructions as the initial exercise but aim for higher sets."
+                        "weight": "Use challenging weights",
+                        "instructions": "Attach a straight bar or handle to the cable machine at waist height.! Sit on a bench facing the machine, grab the bar or handle with a shoulder-width grip, and extend your arms.! Keep your back straight and pull the bar or handle towards your waist, squeezing your shoulder blades together.! Return to the starting position with control."
                     }
                 }
             },
@@ -920,31 +892,32 @@
                 "goal": "Full-Body Strength and Conditioning",
                 "exercises": "Push-ups, Squats, Lunges, Plank",
                 "equipment": "None",
+                "images":["https://th.bing.com/th/id/OIP.ch_OuS2Xh42shgZW9CwgIAAAAA?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.ch_OuS2Xh42shgZW9CwgIAAAAA?pid=ImgDet&rs=1","https://th.bing.com/th/id/OIP.ch_OuS2Xh42shgZW9CwgIAAAAA?pid=ImgDet&rs=1","https://en.bcdn.biz/images/emails/320x192/5c0dfa52-4b8e-49df-9633-3fe0a34fcfef.jpg"],
                 "img": "https://sworkit.com/wp-content/uploads/2020/02/woman-doing-push-ups-1024x704.jpg",
                 "to70": {
                     "exercise1": {
                         "name": "Push-ups",
                         "sets": "3",
                         "reps": "8-10",
-                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart. Lower your body down by bending your elbows, keeping your core engaged and body in a straight line. Push back up to the starting position."
+                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body down by bending your elbows, keeping your core engaged and body in a straight line.! Push back up to the starting position."
                     },
                     "exercise2": {
                         "name": "Squats",
                         "sets": "3",
                         "reps": "8-10",
-                        "instructions": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise3": {
                         "name": "Lunges",
                         "sets": "3",
                         "reps": "8-10 per leg",
-                        "instructions": "Stand with your feet hip-width apart. Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle. Push through your front heel to return to the starting position. Repeat on the other leg."
+                        "instructions": "Stand with your feet hip-width apart.! Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle.! Push through your front heel to return to the starting position.! Repeat on the other leg."
                     },
                     "exercise4": {
                         "name": "Plank",
                         "sets": "3",
-                        "duration": "30 seconds - 1 minute",
-                        "instructions": "Start in a high plank position with your hands directly under your shoulders. Keep your core engaged and body in a straight line from head to toe. Hold the position for the specified duration."
+                        "reps": "30 seconds - 1 minute",
+                        "instructions": "Start in a high plank position with your hands directly under your shoulders.! Keep your core engaged and body in a straight line from head to toe.! Hold the position for the specified duration."
                     }
                 },
                 "to90": {
@@ -952,25 +925,25 @@
                         "name": "Push-ups",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart. Lower your body down by bending your elbows, keeping your core engaged and body in a straight line. Push back up to the starting position."
+                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body down by bending your elbows, keeping your core engaged and body in a straight line.! Push back up to the starting position."
                     },
                     "exercise2": {
                         "name": "Squats",
                         "sets": "3",
                         "reps": "10-12",
-                        "instructions": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise3": {
                         "name": "Lunges",
                         "sets": "3",
                         "reps": "10-12 per leg",
-                        "instructions": "Stand with your feet hip-width apart. Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle. Push through your front heel to return to the starting position. Repeat on the other leg."
+                        "instructions": "Stand with your feet hip-width apart.! Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle.! Push through your front heel to return to the starting position.! Repeat on the other leg."
                     },
                     "exercise4": {
                         "name": "Plank",
                         "sets": "3",
-                        "duration": "45 seconds - 1.5 minutes",
-                        "instructions": "Start in a high plank position with your hands directly under your shoulders. Keep your core engaged and body in a straight line from head to toe. Hold the position for the specified duration."
+                        "reps": "45 seconds - 1 minute",
+                        "instructions": "Start in a high plank position with your hands directly under your shoulders.! Keep your core engaged and body in a straight line from head to toe.! Hold the position for the specified duration."
                     }
                 },
                 "to120": {
@@ -978,25 +951,25 @@
                         "name": "Push-ups",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart. Lower your body down by bending your elbows, keeping your core engaged and body in a straight line. Push back up to the starting position."
+                        "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body down by bending your elbows, keeping your core engaged and body in a straight line.! Push back up to the starting position."
                     },
                     "exercise2": {
                         "name": "Squats",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise3": {
                         "name": "Lunges",
                         "sets": "4",
                         "reps": "8-10 per leg",
-                        "instructions": "Stand with your feet hip-width apart. Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle. Push through your front heel to return to the starting position. Repeat on the other leg."
+                        "instructions": "Stand with your feet hip-width apart.! Take a step forward with one foot and lower your body down until your front knee is at a 90-degree angle.! Push through your front heel to return to the starting position.! Repeat on the other leg."
                     },
                     "exercise4": {
                         "name": "Plank",
                         "sets": "4",
-                        "duration": "45 seconds - 1.5 minutes",
-                        "instructions": "Start in a high plank position with your hands directly under your shoulders. Keep your core engaged and body in a straight line from head to toe. Hold the position for the specified duration."
+                        "reps": "1 minute - 1.5 minute",
+                        "instructions": "Start in a high plank position with your hands directly under your shoulders.! Keep your core engaged and body in a straight line from head to toe.! Hold the position for the specified duration."
                     }
                 }
             },
@@ -1104,31 +1077,32 @@
                 "goal": "Strength and Muscle Building",
                 "exercises": "Band Squats, Band Romanian Deadlifts, Band Push-Ups, Band Bent Over Rows",
                 "equipment": "Resistance Bands",
+                "images":["https://th.bing.com/th/id/OIP.2UsyGOycSu0qXK3spGbFyQHaFj?pid=ImgDet&rs=1","https://i.pinimg.com/originals/35/15/97/35159745b6b0f4d3720f84395ff9c984.jpg","https://th.bing.com/th/id/R.1900c8dba46fb06864204c195809edb7?rik=b0C9ivfnBQFwPA&pid=ImgRaw&r=0","https://th.bing.com/th/id/R.ce5b42aef4595b838dbc59e2519fcd1b?rik=kphVljZ9flaQpw&riu=http%3a%2f%2fassets.menshealth.co.uk%2fmain%2fthumbs%2f33004%2fresistance-band-bent-over-row.jpg&ehk=SKfRpidiojC7Ah9E8BvRoM8tUAanoHOCwCufLXB1Tvo%3d&risl=&pid=ImgRaw&r=0"],
                 "img": "https://media.musclewiki.com/media/uploads/Band_Advanced.png",
                 "to70": {
                     "exercise1": {
                         "name": "Band Squats",
                         "sets": "4",
                         "reps": "6-8",
-                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands. Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands.! Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Band Romanian Deadlifts",
                         "sets": "4",
                         "reps": "6-8",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs. Stand with your feet hip-width apart. Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band. Squeeze your glutes and hamstrings as you return to the starting position."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs.! Stand with your feet hip-width apart.! Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band.! Squeeze your glutes and hamstrings as you return to the starting position."
                     },
                     "exercise3": {
                         "name": "Band Push-Ups",
                         "sets": "4",
                         "reps": "6-8",
-                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders. Assume a push-up position with your hands on the ground and the band providing resistance. Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
+                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders.! Assume a push-up position with your hands on the ground and the band providing resistance.! Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
                     },
                     "exercise4": {
                         "name": "Band Bent Over Rows",
                         "sets": "4",
                         "reps": "6-8",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands. Bend forward at the hips, keeping your back straight. Pull the band up towards your lower chest, squeezing your shoulder blades together. Lower the band back down with control."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands.! Bend forward at the hips, keeping your back straight.! Pull the band up towards your lower chest, squeezing your shoulder blades together.! Lower the band back down with control."
                     }
                 },
                 "to90": {
@@ -1136,25 +1110,25 @@
                         "name": "Band Squats",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands. Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands.! Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Band Romanian Deadlifts",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs. Stand with your feet hip-width apart. Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band. Squeeze your glutes and hamstrings as you return to the starting position."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs.! Stand with your feet hip-width apart.! Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band.! Squeeze your glutes and hamstrings as you return to the starting position."
                     },
                     "exercise3": {
                         "name": "Band Push-Ups",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders. Assume a push-up position with your hands on the ground and the band providing resistance. Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
+                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders.! Assume a push-up position with your hands on the ground and the band providing resistance.! Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
                     },
                     "exercise4": {
                         "name": "Band Bent Over Rows",
                         "sets": "4",
                         "reps": "8-10",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands. Bend forward at the hips, keeping your back straight. Pull the band up towards your lower chest, squeezing your shoulder blades together. Lower the band back down with control."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands.! Bend forward at the hips, keeping your back straight.! Pull the band up towards your lower chest, squeezing your shoulder blades together.! Lower the band back down with control."
                     }
                 },
                 "to120": {
@@ -1162,25 +1136,25 @@
                         "name": "Band Squats",
                         "sets": "5",
                         "reps": "6-8",
-                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands. Stand with your feet shoulder-width apart. Bend your knees and lower your hips down as if sitting back into a chair. Keep your chest up and back straight. Push through your heels to return to the starting position."
+                        "instructions": "Place the resistance band under your feet and hold the other end at shoulder level, gripping it with your hands.! Stand with your feet shoulder-width apart.! Bend your knees and lower your hips down as if sitting back into a chair.! Keep your chest up and back straight.! Push through your heels to return to the starting position."
                     },
                     "exercise2": {
                         "name": "Band Romanian Deadlifts",
                         "sets": "5",
                         "reps": "6-8",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs. Stand with your feet hip-width apart. Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band. Squeeze your glutes and hamstrings as you return to the starting position."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands in front of your thighs.! Stand with your feet hip-width apart.! Hinge at the hips, keeping your back straight, and lower your torso toward the ground while maintaining tension on the band.! Squeeze your glutes and hamstrings as you return to the starting position."
                     },
                     "exercise3": {
                         "name": "Band Push-Ups",
                         "sets": "5",
                         "reps": "6-8",
-                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders. Assume a push-up position with your hands on the ground and the band providing resistance. Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
+                        "instructions": "Wrap the resistance band around your back and hold the ends in your hands, positioning them just outside your shoulders.! Assume a push-up position with your hands on the ground and the band providing resistance.! Lower your chest towards the ground, keeping your body in a straight line, then push back up to the starting position."
                     },
                     "exercise4": {
                         "name": "Band Bent Over Rows",
                         "sets": "5",
                         "reps": "6-8",
-                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands. Bend forward at the hips, keeping your back straight. Pull the band up towards your lower chest, squeezing your shoulder blades together. Lower the band back down with control."
+                        "instructions": "Step on the resistance band with both feet, holding the other end with your hands.! Bend forward at the hips, keeping your back straight.! Pull the band up towards your lower chest, squeezing your shoulder blades together.! Lower the band back down with control."
                     }
                 }
             },
@@ -1281,7 +1255,529 @@
                         "instructions": "Stand with your feet shoulder-width apart and knees slightly bent. Bend at the waist while keeping your back straight. Grasp the barbell with an overhand grip and let it hang in front of you. Pull the barbell up towards your lower chest by retracting your shoulder blades. Lower the barbell back down with control."
                     }
                 }
-            }
+            },
+            {
+                "name": "Advanced Push Workout",
+                "level": "Advanced",
+                "goal": "Gain Muscle",
+                "exercises": "Barbell Bench Press, Dumbbell Shoulder Press, Tricep Dips, Push-ups, Incline Dumbbell Flyes, Diamond Push-ups",
+                "equipment": "Barbell, Dumbbells, Bodyweight",
+                "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg", "https://example.com/image3.jpg", "https://example.com/image4.jpg", "https://example.com/image5.jpg", "https://example.com/image6.jpg"],
+                "img": "https://th.bing.com/th/id/R.36bfc0f28a2118d86d0044b3cd4cfa64?rik=8%2baO38odNOldpw&pid=ImgRaw&r=0",
+                "to70": {
+                  "exercise1": {
+                    "name": "Barbell Bench Press",
+                    "sets": "3",
+                    "reps": "6-10",
+                    "weight": "Barbell",
+                    "instructions": "Lie on a flat bench with your feet firmly on the ground.! Grab the barbell with an overhand grip slightly wider than shoulder-width apart.! Lower the barbell to your chest, then press it back up until your arms are fully extended.! Repeat for the desired number of reps."
+                  },
+                  "exercise2": {
+                    "name": "Dumbbell Shoulder Press",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Dumbbells",
+                    "instructions": "Sit on a bench with a dumbbell in each hand, palms facing forward.! Start with the dumbbells at shoulder level.! Press the dumbbells up overhead until your arms are fully extended.! Lower the dumbbells back down to shoulder level.! Repeat for the desired number of reps."
+                  },
+                  "exercise3": {
+                    "name": "Tricep Dips",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Position your hands shoulder-width apart on parallel bars or a sturdy elevated surface.! Lower your body by bending your elbows until your upper arms are parallel to the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise4": {
+                    "name": "Push-ups",
+                    "sets": "3",
+                    "reps": "10-15",
+                    "weight": "Bodyweight",
+                    "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body by bending your elbows until your chest touches the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise5": {
+                    "name": "Incline Dumbbell Flyes",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Dumbbells",
+                    "instructions": "Lie on an incline bench with a dumbbell in each hand, palms facing each other.! Start with the dumbbells directly above your chest, elbows slightly bent.! Lower the dumbbells out to the sides in a wide arc until you feel a stretch in your chest.! Bring the dumbbells back up to the starting position. ! Repeat for the desired number of reps."
+                  },
+                  "exercise6": {
+                    "name": "Diamond Push-ups",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Start in a high plank position with your hands close together,! forming a diamond shape with your index fingers and thumbs.! Lower your body by bending your elbows until your chest touches your hands.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                  }
+                },
+                "to90": {
+                    "exercise1": {
+                      "name": "Barbell Bench Press",
+                      "sets": "4",
+                      "reps": "8-12",
+                      "weight": "Barbell",
+                      "instructions": "Lie on a flat bench with your feet firmly on the ground.! Grab the barbell with an overhand grip slightly wider than shoulder-width apart.! Lower the barbell to your chest, then press it back up until your arms are fully extended.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Dumbbell Shoulder Press",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Sit on a bench with a dumbbell in each hand, palms facing forward.! Start with the dumbbells at shoulder level.! Press the dumbbells up overhead until your arms are fully extended.! Lower the dumbbells back down to shoulder level.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Tricep Dips",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Position your hands shoulder-width apart on parallel bars or a sturdy elevated surface.! Lower your body by bending your elbows until your upper arms are parallel to the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Push-ups",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Bodyweight",
+                      "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body by bending your elbows until your chest touches the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Incline Dumbbell Flyes",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Lie on an incline bench with a dumbbell in each hand, palms facing each other.! Start with the dumbbells directly above your chest, elbows slightly bent.! Lower the dumbbells out to the sides in a wide arc until you feel a stretch in your chest.! Bring the dumbbells back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Diamond Push-ups",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Start in a high plank position with your hands close together,! forming a diamond shape with your index fingers and thumbs.! Lower your body by bending your elbows until your chest touches your hands.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    }
+                  },
+                  "to120": {
+                    "exercise1": {
+                      "name": "Barbell Bench Press",
+                      "sets": "5",
+                      "reps": "6-10",
+                      "weight": "Barbell",
+                      "instructions": "Lie on a flat bench with your feet firmly on the ground.! Grab the barbell with an overhand grip slightly wider than shoulder-width apart.! Lower the barbell to your chest, then press it back up until your arms are fully extended.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Dumbbell Shoulder Press",
+                      "sets": "5",
+                      "reps": "8-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Sit on a bench with a dumbbell in each hand, palms facing forward.! Start with the dumbbells at shoulder level.! Press the dumbbells up overhead until your arms are fully extended.! Lower the dumbbells back down to shoulder level.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Tricep Dips",
+                      "sets": "5",
+                      "reps": "8-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Position your hands shoulder-width apart on parallel bars or a sturdy elevated surface.! Lower your body by bending your elbows until your upper arms are parallel to the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Push-ups",
+                      "sets": "5",
+                      "reps": "10-15",
+                      "weight": "Bodyweight",
+                      "instructions": "Start in a high plank position with your hands slightly wider than shoulder-width apart.! Lower your body by bending your elbows until your chest touches the ground.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Incline Dumbbell Flyes",
+                      "sets": "5",
+                      "reps": "8-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Lie on an incline bench with a dumbbell in each hand, palms facing each other.! Start with the dumbbells directly above your chest, elbows slightly bent.! Lower the dumbbells out to the sides in a wide arc until you feel a stretch in your chest.! Bring the dumbbells back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Diamond Push-ups",
+                      "sets": "5",
+                      "reps": "8-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Start in a high plank position with your hands close together,! forming a diamond shape with your index fingers and thumbs.! Lower your body by bending your elbows until your chest touches your hands.! Push yourself back up to the starting position.! Repeat for the desired number of reps."
+                    }
+                  }
+              },
+              {
+                "name": "Intermediate Pull Workout",
+                "level": "Intermediate",
+                "goal": "Strength and Muscle",
+                "exercises": "Pull-ups, Barbell Rows, Lat Pulldowns, Dumbbell Hammer Curls, Reverse Flyes, Cable Face Pulls",
+                "equipment": "Pull-up bar, Barbell, Lat pulldown machine, Dumbbells, Cable machine",
+                "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg", "https://example.com/image3.jpg", "https://example.com/image4.jpg", "https://example.com/image5.jpg", "https://example.com/image6.jpg"],
+                "img": "https://media.istockphoto.com/photos/brutal-strong-bodybuilder-athletic-men-pumping-up-muscles-with-picture-id889626776?k=6&m=889626776&s=170667a&w=0&h=cOHqsUjMjs9gHHTPWt6vr8QkwB1YnHDArXmgM_GoJQU=",
+                "to70": {
+                  "exercise1": {
+                    "name": "Pull-ups",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Bodyweight",
+                    "instructions": "Hang from a pull-up bar with your palms facing away from you, hands shoulder-width apart.! Pull yourself up until your chin clears the bar, then lower yourself back down to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise2": {
+                    "name": "Barbell Rows",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Barbell",
+                    "instructions": "Stand with your feet shoulder-width apart, knees slightly bent.! Bend forward at the waist while keeping your back straight.! Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the barbell up toward your lower chest, squeezing your shoulder blades together.! Lower the barbell back down to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise3": {
+                    "name": "Lat Pulldowns",
+                    "sets": "3",
+                    "reps": "10-15",
+                    "weight": "Machine",
+                    "instructions": "Sit at a lat pulldown machine with your knees secured under the pads.! Grasp the wide bar with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the bar down towards your chest by squeezing your shoulder blades together.! Slowly release the bar back up to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise4": {
+                    "name": "Dumbbell Hammer Curls",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Dumbbells",
+                    "instructions": "Stand with a dumbbell in each hand, palms facing your body.! Keep your elbows close to your sides and curl the dumbbells up towards your shoulders, squeezing your biceps.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise5": {
+                    "name": "Reverse Flyes",
+                    "sets": "3",
+                    "reps": "10-15",
+                    "weight": "Dumbbells",
+                    "instructions": "Stand with a dumbbell in each hand, palms facing inwards.! Bend forward at the waist with a slight bend in your knees.! Lift the dumbbells out to the sides, keeping your arms straight and squeezing your shoulder blades together.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise6": {
+                    "name": "Cable Face Pulls",
+                    "sets": "3",
+                    "reps": "10-15",
+                    "weight": "Cable machine",
+                    "instructions": "Attach a rope attachment to a high pulley on a cable machine.! Stand with your feet shoulder-width apart and grab the rope with a neutral grip.! Pull the rope towards your face, keeping your elbows high and squeezing your shoulder blades together.! Slowly release the rope back to the starting position.! Repeat for the desired number of reps."
+                  }
+                },
+                "to90": {
+                    "exercise1": {
+                      "name": "Pull-ups",
+                      "sets": "4",
+                      "reps": "8-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Hang from a pull-up bar with your palms facing away from you, hands shoulder-width apart.! Pull yourself up until your chin clears the bar, then lower yourself back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Barbell Rows",
+                      "sets": "4",
+                      "reps": "8-12",
+                      "weight": "Barbell",
+                      "instructions": "Stand with your feet shoulder-width apart, knees slightly bent.! Bend forward at the waist while keeping your back straight.! Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the barbell up toward your lower chest, squeezing your shoulder blades together.! Lower the barbell back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Lat Pulldowns",
+                      "sets": "4",
+                      "reps": "10-15",
+                      "weight": "Machine",
+                      "instructions": "Sit at a lat pulldown machine with your knees secured under the pads.! Grasp the wide bar with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the bar down towards your chest by squeezing your shoulder blades together.! Slowly release the bar back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Dumbbell Hammer Curls",
+                      "sets": "4",
+                      "reps": "8-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand with a dumbbell in each hand, palms facing your body.! Keep your elbows close to your sides and curl the dumbbells up towards your shoulders, squeezing your biceps.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Reverse Flyes",
+                      "sets": "4",
+                      "reps": "10-15",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand with a dumbbell in each hand, palms facing inwards.! Bend forward at the waist with a slight bend in your knees.! Lift the dumbbells out to the sides, keeping your arms straight and squeezing your shoulder blades together.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Cable Face Pulls",
+                      "sets": "4",
+                      "reps": "10-15",
+                      "weight": "Cable machine",
+                      "instructions": "Attach a rope attachment to a high pulley on a cable machine.! Stand with your feet shoulder-width apart and grab the rope with a neutral grip.! Pull the rope towards your face, keeping your elbows high and squeezing your shoulder blades together.! Slowly release the rope back to the starting position.! Repeat for the desired number of reps."
+                    }
+                  },
+                  "to120": {
+                    "exercise1": {
+                      "name": "Pull-ups",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Bodyweight",
+                      "instructions": "Hang from a pull-up bar with your palms facing away from you, hands shoulder-width apart.! Pull yourself up until your chin clears the bar, then lower yourself back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Barbell Rows",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Barbell",
+                      "instructions": "Stand with your feet shoulder-width apart, knees slightly bent.! Bend forward at the waist while keeping your back straight.! Grasp the barbell with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the barbell up toward your lower chest, squeezing your shoulder blades together.! Lower the barbell back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Lat Pulldowns",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Machine",
+                      "instructions": "Sit at a lat pulldown machine with your knees secured under the pads.! Grasp the wide bar with an overhand grip, hands slightly wider than shoulder-width apart.! Pull the bar down towards your chest by squeezing your shoulder blades together.! Slowly release the bar back up to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Dumbbell Hammer Curls",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand with a dumbbell in each hand, palms facing your body.! Keep your elbows close to your sides and curl the dumbbells up towards your shoulders, squeezing your biceps.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Reverse Flyes",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand with a dumbbell in each hand, palms facing inwards.! Bend forward at the waist with a slight bend in your knees.! Lift the dumbbells out to the sides, keeping your arms straight and squeezing your shoulder blades together.! Lower the dumbbells back down to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Cable Face Pulls",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Cable machine",
+                      "instructions": "Attach a rope attachment to a high pulley on a cable machine.! Stand with your feet shoulder-width apart and grab the rope with a neutral grip.! Pull the rope towards your face, keeping your elbows high and squeezing your shoulder blades together.! Slowly release the rope back to the starting position.! Repeat for the desired number of reps."
+                    }
+                  }
+              },
+              {
+                "name": "Intermediate Leg Workout",
+                "level": "Intermediate",
+                "goal": "Strength and Muscle",
+                "exercises": "Back Squats, Romanian Deadlifts, Lunges, Leg Press, Calf Raises, Glute Bridges",
+                "equipment": "Barbell, Dumbbells, Leg press machine, Calf raise machine",
+                "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg", "https://example.com/image3.jpg", "https://example.com/image4.jpg", "https://example.com/image5.jpg", "https://example.com/image6.jpg"],
+                "img": "https://barbend.com/wp-content/uploads/2019/04/Leg-Press-Guide-.jpg",
+                "to70": {
+                  "exercise1": {
+                    "name": "Back Squats",
+                    "sets": "4",
+                    "reps": "8-10",
+                    "weight": "Barbell",
+                    "instructions": "Start with the barbell resting on your upper back, just below the base of your neck.! Position your feet shoulder-width apart.! Keeping your chest up and core engaged, lower your body by bending at the knees and hips, as if sitting back into a chair.! Go as low as your flexibility allows while keeping your heels on the ground.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise2": {
+                    "name": "Romanian Deadlifts",
+                    "sets": "3",
+                    "reps": "10-12",
+                    "weight": "Barbell or Dumbbells",
+                    "instructions": "Stand with your feet hip-width apart, holding a barbell or dumbbells in front of your thighs.! Keeping your back straight and knees slightly bent, hinge at the hips and lower the weights by pushing your hips back.! Lower the weights until you feel a stretch in your hamstrings.! Engage your glutes and hamstrings to return to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise3": {
+                    "name": "Lunges",
+                    "sets": "3",
+                    "reps": "12-15 (each leg)",
+                    "weight": "Dumbbells",
+                    "instructions": "Stand tall with your feet hip-width apart, holding dumbbells by your sides.! Take a step forward with your right foot and lower your body into a lunge position,! keeping your front knee in line with your ankle.! Push through your right heel to return to the starting position.! Repeat on the other leg.! Alternate legs for the desired number of reps."
+                  },
+                  "exercise4": {
+                    "name": "Leg Press",
+                    "sets": "3",
+                    "reps": "8-12",
+                    "weight": "Machine",
+                    "instructions": "Sit in the leg press machine with your feet on the platform, shoulder-width apart.! Lower the platform until your knees are bent at a 90-degree angle.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise5": {
+                    "name": "Calf Raises",
+                    "sets": "3",
+                    "reps": "12-15",
+                    "weight": "Machine or Dumbbells",
+                    "instructions": "Stand with the balls of your feet on a calf raise machine or a raised platform, with your heels hanging off the edge.! Lift your heels as high as possible by contracting your calf muscles.! Pause at the top, then slowly lower your heels back to the starting position.! Repeat for the desired number of reps."
+                  },
+                  "exercise6": {
+                    "name": "Glute Bridges",
+                    "sets": "3",
+                    "reps": "10-12",
+                    "weight": "Barbell or Dumbbells",
+                    "instructions": "Lie flat on your back with your knees bent and feet flat on the floor, hip-width apart.! Place a barbell or dumbbells across your hips.! Press through your heels and squeeze your glutes to lift your hips off the ground! until your body forms a straight line from your shoulders to your knees.! Hold for a brief pause, then lower your hips back down to the starting position.! Repeat for the desired number of reps."
+                  }
+                },
+                "to90": {
+                    "exercise1": {
+                      "name": "Back Squats",
+                      "sets": "4",
+                      "reps": "10-12",
+                      "weight": "Barbell",
+                      "instructions": "Start with the barbell resting on your upper back, just below the base of your neck.! Position your feet shoulder-width apart.! Keeping your chest up and core engaged, lower your body by bending at the knees and hips, as if sitting back into a chair.! Go as low as your flexibility allows while keeping your heels on the ground.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Romanian Deadlifts",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Barbell or Dumbbells",
+                      "instructions": "Stand with your feet hip-width apart, holding a barbell or dumbbells in front of your thighs.! Keeping your back straight and knees slightly bent, hinge at the hips and lower the weights by pushing your hips back.! Lower the weights until you feel a stretch in your hamstrings.! Engage your glutes and hamstrings to return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Lunges",
+                      "sets": "4",
+                      "reps": "15-17 (each leg)",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand tall with your feet hip-width apart, holding dumbbells by your sides.! Take a step forward with your right foot and lower your body into a lunge position,! keeping your front knee in line with your ankle.! Push through your right heel to return to the starting position.! Repeat on the other leg.! Alternate legs for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Leg Press",
+                      "sets": "4",
+                      "reps": "10-15",
+                      "weight": "Machine",
+                      "instructions": "Sit in the leg press machine with your feet on the platform, shoulder-width apart.! Lower the platform until your knees are bent at a 90-degree angle.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Calf Raises",
+                      "sets": "4",
+                      "reps": "15-17",
+                      "weight": "Machine or Dumbbells",
+                      "instructions": "Stand with the balls of your feet on a calf raise machine or a raised platform, with your heels hanging off the edge.! Lift your heels as high as possible by contracting your calf muscles.! Pause at the top, then slowly lower your heels back to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Glute Bridges",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Barbell or Dumbbells",
+                      "instructions": "Lie flat on your back with your knees bent and feet flat on the floor, hip-width apart.! Place a barbell or dumbbells across your hips.! Press through your heels and squeeze your glutes to lift your hips off the ground! until your body forms a straight line from your shoulders to your knees.! Hold for a brief pause, then lower your hips back down to the starting position.! Repeat for the desired number of reps."
+                    }
+                  },
+                  "to120": {
+                    "exercise1": {
+                      "name": "Back Squats",
+                      "sets": "5",
+                      "reps": "8-10",
+                      "weight": "Barbell",
+                      "instructions": "Start with the barbell resting on your upper back, just below the base of your neck.! Position your feet shoulder-width apart.! Keeping your chest up and core engaged, lower your body by bending at the knees and hips, as if sitting back into a chair.! Go as low as your flexibility allows while keeping your heels on the ground.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise2": {
+                      "name": "Romanian Deadlifts",
+                      "sets": "5",
+                      "reps": "10-12",
+                      "weight": "Barbell or Dumbbells",
+                      "instructions": "Stand with your feet hip-width apart, holding a barbell or dumbbells in front of your thighs.! Keeping your back straight and knees slightly bent, hinge at the hips and lower the weights by pushing your hips back.! Lower the weights until you feel a stretch in your hamstrings.! Engage your glutes and hamstrings to return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise3": {
+                      "name": "Lunges",
+                      "sets": "5",
+                      "reps": "12-15 (each leg)",
+                      "weight": "Dumbbells",
+                      "instructions": "Stand tall with your feet hip-width apart, holding dumbbells by your sides.! Take a step forward with your right foot and lower your body into a lunge position,! keeping your front knee in line with your ankle.! Push through your right heel to return to the starting position.! Repeat on the other leg.! Alternate legs for the desired number of reps."
+                    },
+                    "exercise4": {
+                      "name": "Leg Press",
+                      "sets": "5",
+                      "reps": "8-12",
+                      "weight": "Machine",
+                      "instructions": "Sit in the leg press machine with your feet on the platform, shoulder-width apart.! Lower the platform until your knees are bent at a 90-degree angle.! Push through your heels to extend your legs and return to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise5": {
+                      "name": "Calf Raises",
+                      "sets": "5",
+                      "reps": "12-15",
+                      "weight": "Machine or Dumbbells",
+                      "instructions": "Stand with the balls of your feet on a calf raise machine or a raised platform, with your heels hanging off the edge.! Lift your heels as high as possible by contracting your calf muscles.! Pause at the top, then slowly lower your heels back to the starting position.! Repeat for the desired number of reps."
+                    },
+                    "exercise6": {
+                      "name": "Glute Bridges",
+                      "sets": "5",
+                      "reps": "10-12",
+                      "weight": "Barbell or Dumbbells",
+                      "instructions": "Lie flat on your back with your knees bent and feet flat on the floor, hip-width apart.! Place a barbell or dumbbells across your hips.! Press through your heels and squeeze your glutes to lift your hips off the ground! until your body forms a straight line from your shoulders to your knees.! Hold for a brief pause, then lower your hips back down to the starting position.! Repeat for the desired number of reps."
+                    }
+                  }
+              },
+              {
+                "name": "Forearm Workout",
+                "level": "Intermediate",
+                "goal": "Forearm Strength and Size",
+                "exercises": "Wrist Curls, Reverse Wrist Curls, Farmer's Walk, Plate Pinches",
+                "equipment": "Dumbbells, Barbell, Plates",
+                "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg", "https://example.com/image3.jpg", "https://example.com/image4.jpg"],
+                "img": "https://th.bing.com/th/id/OIP.f1Dck_LLepx9PFUH3n8vAQHaEG?pid=ImgDet&rs=1",
+                "to70": {
+                  "exercise1": {
+                    "name": "Wrist Curls",
+                    "sets": "3",
+                    "reps": "12-15",
+                    "weight": "Dumbbells or Barbell",
+                    "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing up.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists upward as far as possible, squeezing your forearms.! Lower the weight slowly and repeat for 12-15 reps."
+                  },
+                  "exercise2": {
+                    "name": "Reverse Wrist Curls",
+                    "sets": "3",
+                    "reps": "12-15",
+                    "weight": "Dumbbells or Barbell",
+                    "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing down.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists downward as far as possible, feeling the contraction in your forearms.! Slowly raise the weight back up and repeat for 12-15 reps."
+                  },
+                  "exercise3": {
+                    "name": "Farmer's Walk",
+                    "sets": "3",
+                    "reps":"20-30 meters",
+                    "weight": "Dumbbells or Kettlebells",
+                    "instructions": "Stand tall with a dumbbell or kettlebell in each hand.! Keep your shoulders down and back, and engage your core.! Walk forward for 20-30 meters, taking short, controlled steps, while maintaining an upright posture."
+                  },
+                  "exercise4": {
+                    "name": "Plate Pinches",
+                    "sets": "3",
+                    "reps":"20-40 seconds",
+                    "weight": "Weight Plates",
+                    "instructions": "Select two weight plates of the same size.! Hold them smooth side out with your fingers and thumb.! Pinch the plates together tightly and lift them off the ground.! Hold for 20-40 seconds while maintaining a strong grip.! Release and repeat for 3 sets."
+                  }
+                },
+                "to90": {
+                    "exercise1": {
+                      "name": "Wrist Curls",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Dumbbells or Barbell",
+                      "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing up.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists upward as far as possible, squeezing your forearms.! Lower the weight slowly and repeat for 12-15 reps."
+                    },
+                    "exercise2": {
+                      "name": "Reverse Wrist Curls",
+                      "sets": "4",
+                      "reps": "12-15",
+                      "weight": "Dumbbells or Barbell",
+                      "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing down.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists downward as far as possible, feeling the contraction in your forearms.! Slowly raise the weight back up and repeat for 12-15 reps."
+                    },
+                    "exercise3": {
+                      "name": "Farmer's Walk",
+                      "sets": "4",
+                      "reps":"30-40 meters",
+                      "weight": "Dumbbells or Kettlebells",
+                      "instructions": "Stand tall with a dumbbell or kettlebell in each hand.! Keep your shoulders down and back, and engage your core.! Walk forward for 30-40 meters, taking short, controlled steps, while maintaining an upright posture."
+                    },
+                    "exercise4": {
+                      "name": "Plate Pinches",
+                      "sets": "4",
+                      "reps":"30 to 60 seconds",
+                      "weight": "Weight Plates",
+                      "instructions": "Select two weight plates of the same size.! Hold them smooth side out with your fingers and thumb.! Pinch the plates together tightly and lift them off the ground.! Hold for 30-60 seconds while maintaining a strong grip.! Release and repeat for 3 sets."
+                    }
+                  },
+                  "to120": {
+                    "exercise1": {
+                      "name": "Wrist Curls",
+                      "sets": "5",
+                      "reps": "12-15",
+                      "weight": "Dumbbells or Barbell",
+                      "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing up.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists upward as far as possible, squeezing your forearms.! Lower the weight slowly and repeat for 12-15 reps."
+                    },
+                    "exercise2": {
+                      "name": "Reverse Wrist Curls",
+                      "sets": "5",
+                      "reps": "12-15",
+                      "weight": "Dumbbells or Barbell",
+                      "instructions": "Sit on a bench with a dumbbell or a barbell in your hands, palms facing down.! Rest your forearms on your thighs, letting your wrists hang over your knees.! Curl your wrists downward as far as possible, feeling the contraction in your forearms.! Slowly raise the weight back up and repeat for 12-15 reps."
+                    },
+                    "exercise3": {
+                      "name": "Farmer's Walk",
+                      "sets": "5",
+                      "reps":"80-100 meters",
+                      "weight": "Dumbbells or Kettlebells",
+                      "instructions": "Stand tall with a dumbbell or kettlebell in each hand.! Keep your shoulders down and back, and engage your core.! Walk forward for 80-100 meters, taking short, controlled steps, while maintaining an upright posture."
+                    },
+                    "exercise4": {
+                      "name": "Plate Pinches",
+                      "sets": "5",
+                      "reps":"60 to 80 seconds",
+                      "weight": "Weight Plates",
+                      "instructions": "Select two weight plates of the same size.! Hold them smooth side out with your fingers and thumb.! Pinch the plates together tightly and lift them off the ground.! Hold for 60-80 seconds while maintaining a strong grip.! Release and repeat for 3 sets."
+                    }
+                  }
+              }
         ]
     }
 }

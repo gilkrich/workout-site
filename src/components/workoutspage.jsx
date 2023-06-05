@@ -59,7 +59,7 @@ const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
       <div className='if-logged'>
         <h2>want to see more sign up a new acoount and see every workout available</h2>
         <Link  to='/user/signup'><button className='signup-button-workoutpage'>sign-up</button></Link>
-        <h4>already have an acoount?<Link>Login</Link></h4>
+        <h4>already have an acoount?<Link to='/user'>Login</Link></h4>
       </div>
         </div>
       }

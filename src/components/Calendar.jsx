@@ -11,8 +11,9 @@ function Calendar1({ workoutData, setWorkoutData }) {
   useEffect(() => {
     if (workoutData) {
       if (localStorage.getItem('loggeduser')) {
-        let amen = JSON.parse(localStorage.getItem('loggeduser'))
-        let name = amen.myworkout
+        let user = JSON.parse(localStorage.getItem('loggeduser'))
+        let name = user.myworkout
+        if(name!=""){
         const found = workoutData?.find(obj => obj.name = name)
         let x
         if (found.name == 'Advanced Bodyweight Workout' || found.name == "Advanced Cable Workout" || found.name == "Advanced Dumbbell Workout" || found.name == "Advanced Band Workout" || found.name == "Advanced Barbell Workout") {
@@ -62,6 +63,7 @@ function Calendar1({ workoutData, setWorkoutData }) {
         setEvents(output)
       }
     }
+  }
   }, [workoutData])
 
 
@@ -78,8 +80,8 @@ function Calendar1({ workoutData, setWorkoutData }) {
       calendarApi.addEvent({
         title,
         start: selectInfo.startStr,
-        //       // end: selectInfo.endStr,
-        //       // allDay: selectInfo.allDay
+              end: selectInfo.endStr,
+              allDay: selectInfo.allDay
       })
     }
   }

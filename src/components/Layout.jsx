@@ -4,7 +4,7 @@ import { Outlet, Link, useParams,  } from 'react-router-dom'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MenuIcon from '@mui/icons-material/Menu';
 import Hamburger from 'hamburger-react';
-
+import logo from './images/logo1.png'
 const Layout = ({isloggedout,setloggedout}) => {
   // const [isloggedout,setloggedout]= useState(false)
   const [signbutton,setsignbutton]= useState()
@@ -28,7 +28,7 @@ const Layout = ({isloggedout,setloggedout}) => {
         <div >
           {/* <Link to='/' > <img src={real} alt="" className='logo' /></Link> */}
           {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_4TCWA8yv2mMkn6icruBLTRuTxVTwKlLTUg&usqp=CAU" alt="" width='200px' height='80px'/> */}
-          <Link to='/' className='nav-link'>   <h2 style={{ color: 'white', fontSize: 'xxx-large' }}>TheGym</h2></Link>
+          <Link to='/' className='nav-link'>   <h2 style={{ color: 'white', fontSize: 'xxx-large' }}><img src={logo} alt="" style={{width:'300px' ,height:'100px'}} /></h2></Link>
         </div>
         <div id='nav-links-side'>
           <Link to='workouts' className='nav-link'>workouts</Link>
@@ -38,7 +38,7 @@ const Layout = ({isloggedout,setloggedout}) => {
         </div>
         <Hamburger color="white" className='menu-icon' onToggle={setnavbar}/>
         {localStorage.getItem('loggeduser')&&<div className='signout-container'>
-          <h4 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).email}</h4>
+          <h4 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).username}</h4>
           <AccountCircleIcon style={{fontSize:'xx-large'}} id='user-icon' onClick={()=>showout()}/>
          {signbutton && <button className='signout-button' onClick={()=>signout()}><Link>signout</Link></button> }
         </div>
@@ -61,7 +61,7 @@ const Layout = ({isloggedout,setloggedout}) => {
          <Link className='nav-link' to='user/signup'>Signup</Link>
         </div>}
         {localStorage.getItem('loggeduser')&&<div className='mobile-icon-container'>
-        <h3 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).email}</h3>
+        <h3 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).username}</h3>
           <AccountCircleIcon style={{fontSize:'xx-large'}} className='user-icon'/>
           <Link  className='nav-link' onClick={()=>signout()}>signout</Link>
         </div>
