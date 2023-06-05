@@ -192,13 +192,23 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
 
     }
   }
+  // const handleInputChange = (event) => {
+  //   const { value } = event.target;
+  //   const formattedValue = value.replace(/\s/g, '').match(/.{1, 4}/g)?.join(' '); 
+  //   console.log(formattedValue)
+  //   setCreditNum(formattedValue); 
+  //   console.log(creditnum)
+  // };
   const handleInputChange = (event) => {
     const { value } = event.target;
-    const formattedValue = value
-      .replace(/\s/g, '') // Remove existing spaces
-      .match(/.{1, 4}/g) // Split into groups of 4 characters
-      ?.join(' '); // Join groups with a space between them
-    setCreditNum(formattedValue || '');
+    const formattedValue = value.replace(/\s/g, '').match(/\d{1,4}/g)?.join(' ');
+    console.log(formattedValue);
+    
+    if (formattedValue) {
+      setCreditNum(formattedValue);
+    } else {
+      setCreditNum(value);
+    }
   };
   const handleExpiryDate = (date) => {
     setExpiryDate({
@@ -243,7 +253,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
               </div>
               <div className='flex-start'>
                 <h3 className='start'>Credit card number</h3>
-                <input type='text' value={creditnum} maxLength="19" placeholder='1234 5678 9012 3456' className='input' onChange={e => { handleInputChange(e) }}></input>
+                <input type='text'  value={creditnum} maxLength="19" placeholder='1234 5678 9012 3456' className='input' onChange={e => {handleInputChange(e)}}></input>
               </div>
               <div className='flex-start'>
                 <h3 className='start'>Name on card</h3>

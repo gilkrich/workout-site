@@ -37,12 +37,11 @@ function Signuppage({ isloggedout, setloggedout }) {
       const users = JSON.parse(localStorage.getItem('users'))
       const check = users.find(a => a.email == email)
       if (check != undefined) {
-        alert("already taken")
+        alert(" email is already taken")
       } else {
         if (email.includes("@") && email.includes(".com")) {
           const halfemail = email.split("@")[1].split(".")[0];
           if ((halfemail == "gmail" || halfemail == "walla")) {
-            console.log("hey")
             const person = { username: username, email: email, password: password, verify: verify, creditnum: "", confirmationnum: "", myworkout: "" };
             users.push(person)
             localStorage.setItem('users', JSON.stringify(users))
