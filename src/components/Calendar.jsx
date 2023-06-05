@@ -69,6 +69,7 @@ function Calendar1({ workoutData, setWorkoutData }) {
       }
       }
     }
+  }
   }, [workoutData])
 
 
@@ -82,6 +83,9 @@ function Calendar1({ workoutData, setWorkoutData }) {
       calendarApi.addEvent({
         title,
         start: selectInfo.startStr,
+              end: selectInfo.endStr,
+              allDay: selectInfo.allDay
+
       })
     }
   }

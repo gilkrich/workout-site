@@ -12,7 +12,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 const Layout = ({ isloggedout, setloggedout }) => {
   const [signbutton, setsignbutton] = useState()
   const [navbar, setnavbar] = useState()
-
+  
   function showout() {
     setsignbutton(!signbutton)
   }
@@ -66,6 +66,7 @@ const Layout = ({ isloggedout, setloggedout }) => {
           <h3 className='user-name-style'>{JSON.parse(localStorage.getItem('loggeduser')).username}</h3>
           <AccountCircleIcon style={{ fontSize: 'xx-large', color: 'white' }} id='second-user' />
           <Link className='nav-link' onClick={() => signout()}>signout</Link>
+         
         </div>
         }
       </nav>}

@@ -17,7 +17,7 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 400,
-  height: 300,
+  height: 450,
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -35,27 +35,26 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [halfCurrentWorkout,setHalfCurrentWorkout]=useState([]);
-  const loggedUser =JSON.parse(localStorage.getItem('loggeduser'))
-  const [creditnum,setCreditNum]=useState("");
-  const [confnum,setConfNum]=useState("");
+  const [halfCurrentWorkout, setHalfCurrentWorkout] = useState([]);
+  const loggedUser = JSON.parse(localStorage.getItem('loggeduser'))
+  const [creditnum, setCreditNum] = useState();
+  const [confnum, setConfNum] = useState("");
+  const [nameoncard, setnameoncard] = useState("");
+  const [exdate, setexdate] = useState();
   useEffect(() => {
     setCurrentWorkout(workoutData?.find(obj => obj?.name == name));
-   }, [workoutData])
-  useEffect(()=>{
-    console.log(currentWorkout)
-    if(currentWorkout){
-    console.log(Object.values(currentWorkout&&currentWorkout[currentBmi])[0])
-    const newValue1 = Object.values(currentWorkout[currentBmi])[0];
-    const newValue2=Object.values(currentWorkout[currentBmi])[1];
-      if(!halfCurrentWorkout.includes(newValue1)&&!halfCurrentWorkout.includes(newValue2)){
-        setHalfCurrentWorkout([newValue1,newValue2]);
+  }, [workoutData])
+  useEffect(() => {
+    if (currentWorkout) {
+      const newValue1 = Object.values(currentWorkout[currentBmi])[0];
+      const newValue2 = Object.values(currentWorkout[currentBmi])[1];
+      if (!halfCurrentWorkout.includes(newValue1) && !halfCurrentWorkout.includes(newValue2)) {
+        setHalfCurrentWorkout([newValue1, newValue2]);
       }
     }
-    
-  },[currentBmi,currentWorkout]);
-  
- 
+
+  }, [currentBmi, currentWorkout]);
+
   function Bmicalc(weight, height) {
     let bmi = (weight / Math.pow((height / 100), 2)).toFixed(1);
     setShowingBmi(bmi)
@@ -127,14 +126,41 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
                 </ol>
               </div>
               <div className='workout-images'>
-                <h1>image</h1>
+                <img className='workout-image' src={currentWorkout.images[index]} />
               </div>
             </div>
-          </div>
-        );
-      });
+          );
+        })
+
+
+      }
+      else {
+        return halfCurrentWorkout && halfCurrentWorkout.map((item, index) => {
+          return (
+            <div className='workout-text' key={index}>
+              <div className='work-hard'>
+                <div className='workout-card'>
+                  <h2 className='exercises-name'>{item.name}</h2>
+                  <h2>{item.sets} sets</h2>
+                  <h2>{item.reps} reps</h2>
+                  <h2>weight to use - {item.weight}</h2>
+                  <ol className='list'>
+                    {item.instructions.split("!").map((item, index) => {
+                      return (
+                        <li className="list-item" key={index}><span>{item}</span></li>
+                      );
+                    })}
+                  </ol>
+                </div>
+                <div className='workout-images'>
+                  <img className='workout-image' src={currentWorkout.images[index]} alt="" />
+                </div>
+              </div>
+            </div>
+          );
+        });
+      }
     }
-    } 
     else {
       console.log(halfCurrentWorkout);
       return halfCurrentWorkout && halfCurrentWorkout.map((item, index) => {
@@ -156,7 +182,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
                 </ol>
               </div>
               <div className='workout-images'>
-                <h1>image</h1>
+                <img className='workout-image' src={currentWorkout.images[index]} alt="" />
               </div>
             </div>
           </div>
@@ -174,25 +200,32 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
       localStorage.setItem('users', JSON.stringify(users))
     }
   }
-  function handleClick(){
-    if(localStorage.getItem("loggeduser")){
-    if(creditnum.length==16&&confnum.length==3){
-      loggedUser.creditnum=creditnum;
-      loggedUser.confirmationnum=confnum;
-      console.log(loggedUser);
-      localStorage.setItem("loggeduser",JSON.stringify(loggedUser))
-      const users=JSON.parse(localStorage.getItem("users")).filter((item)=>item.email!=loggedUser.email);
-      users.push(loggedUser);
-      localStorage.setItem("users",JSON.stringify(users));
-      noPaiment();
-    }
-  
+  function handleClick() {
+    if (localStorage.getItem("loggeduser")) {
+      if (creditnum.length == 19&& confnum.length == 3) {
+        loggedUser.creditnum = creditnum;
+        loggedUser.confirmationnum = confnum;
+        console.log(loggedUser);
+        localStorage.setItem("loggeduser", JSON.stringify(loggedUser))
+        const users = JSON.parse(localStorage.getItem("users")).filter((item) => item.email != loggedUser.email);
+        users.push(loggedUser);
+        localStorage.setItem("users", JSON.stringify(users));
+        noPaiment();
+      }
+      else {
+        alert("the credit card number or the confirmation number is incorrect");
+      }
+
     }
   }
-  function handlePayment(){ 
-    console.log(loggedUser)
-    if(!localStorage.getItem("loggeduser")){
-      return(
+  const handleExpiryDate = (date) => {
+    setExpiryDate({
+      value: date
+    });
+  };
+  function handlePayment() {
+    if (!localStorage.getItem("loggeduser")) {
+      return (
         <><Button onClick={handleOpen}>to continue reading</Button><Modal open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
@@ -201,45 +234,68 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
             <div className='payment-container'>
               <h1> you need to login first</h1>
               <Link to='/user'>
-                <button>to loggin</button>
+                <button class='sbmit-btn' id="login">to login</button>
               </Link>
             </div>
           </Box>
         </Modal></>
-     
+
       )
     }
-    else if(loggedUser.creditnum!="")
-    {
+    else if (loggedUser.creditnum != "") {
       return null
     }
-    else{
-      return(
+    else {
+      return (
         <><Button onClick={handleOpen}>to continue reading</Button><Modal open={open}
           onClose={handleClose}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description">
           <Box sx={style}>
             <div className='payment-container'>
-            <div className='payment-container'>
-      <h1>Add Payment Method</h1>
-      <div>
-       <input type='number' placeholder='Credit card number' onChange={e=>setCreditNum(e.target.value)}></input>
-       <input type='number' placeholder='validation number' onChange={e=>setConfNum(e.target.value)}></input>
-       <button onClick={()=>handleClick()}>submit</button>
-       <img src={mastercard} alt="" />
-       <img src={paypal} alt="" />
-       <img src={visa} alt="" />
-      </div>
-      </div>
+              <h1>Add Payment Method</h1>
+              <div>
+                <img src={mastercard} alt="" />
+                <img src={paypal} alt="" />
+                <img src={visa} alt="" />
+              </div>
+              <div className='flex-start'>
+                <h3 className='start'>Credit card number</h3>
+                <input type='text' value={creditnum} maxLength="19" placeholder='1234 5678 9012 3456' className='input' onChange={e => { handleInputChange(e) }}></input>
+              </div>
+              <div className='flex-start'>
+                <h3 className='start'>Name on card</h3>
+                <input type='text' placeholder='Ex.John' className='input'></input>
+              </div>
+              <div style={{ display: "flex", justifyContent: "space-evenly", width: "100%" }}>
+                <span className='flex-start'>
+                  <span className='start'>Expiery date</span>
+                  <input type='text' className='input2' placeholder='06/23' value={exdate} onChange={e => setexdate(e.target.value.replace(/\//g, "").substring(0, 2) +
+                    (e.target.value.length > 2 ? '/' : '') +
+                    e.target.value.replace(/\//g, "").substring(2, 4))}></input>
+                </span>
+                <span className='flex-start'>
+                  <span className='start'>Security number</span>
+                  <input type='number' min="1" max="999" placeholder='• • •' className='input2' onChange={e => setConfNum(e.target.value)}></input>
+                </span>
+              </div>
+              <button class="sbmit-btn" onClick={() => handleClick()}>Subscribe 19.99$</button>
+
             </div>
           </Box>
         </Modal></>
-    
+
       )
     }
   }
- 
+  const handleInputChange = (event) => {
+    const { value } = event.target;
+    const formattedValue = value
+      .replace(/\s/g, '') // Remove existing spaces
+      .match(/.{1,4}/g) // Split into groups of 4 characters
+      ?.join(' '); // Join groups with a space between them
+    setCreditNum(formattedValue || '');
+  };
   return (
     <div className='workoutplan-container'>
       <h1 style={{ marginBottom: '50px', marginTop: '50px' }}>Our workouts</h1>
@@ -268,6 +324,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
         <h1>Best for {currentWorkout?.goal}</h1>
         <h3>Exercises : {currentWorkout?.exercises}</h3>
       </div>
+
       {localStorage.getItem("loggeduser")&&loggedUser.creditnum!=""&&<button className='current-button' onClick={() => changeworkout()}>Make current workout</button>}
           <div className='workout-text'>
         {noPaiment()}

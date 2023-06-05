@@ -25,7 +25,6 @@ function App() {
     setWorkoutfakeData(data && data?.manworkout);
     console.log("mounted")
   }, [])
-
   return (
     <>
       <div style={{ maxWidth: "100vw" }}>

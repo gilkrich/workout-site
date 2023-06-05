@@ -15,7 +15,9 @@ const Homepage = ({ workoutData }) => {
       <div className='hero-container'>
         <h1 className='hero-header'>Ignite Your Potential. Transform Your Body</h1>
         <h3 className='hero-sub-text'>Unleash the Power Within and Discover the Strength of Your Journey</h3>
-        <button className='hero-button'>Take a look at our programs</button>
+        <Link to="workouts">
+          <button className='hero-button'>Take a look at our programs</button>
+        </Link>
       </div>
       <div className='ad-section'>
         <img src={blonde} alt="" className='ad-image' />
