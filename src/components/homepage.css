@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Oswald&display=swap');
+
+* {
+    font-family: Oswald;
+}
+
 .hero-container {
     width: 35vw;
     display: flex;
@@ -15,6 +21,12 @@
     border: 0;
     font-size: medium;
     border-radius: 30px;
+    box-shadow: 1px 1px 3px 3px white
+}
+
+.hero-button:hover {
+    opacity: 0.9;
+    transform: scale(1.01);
 }
 
 .hero-header {
@@ -177,7 +189,7 @@
     row-gap: 30px;
 }
 
-.stars{
+.stars {
     width: 140px;
 }
 
@@ -194,34 +206,34 @@
         width: 150px;
     }
 
-    .ad-section{
+    .ad-section {
         flex-direction: column;
         margin-bottom: 50px;
     }
 
-    .ad-image{
+    .ad-image {
         width: 100vw;
     }
 
-    .ad-text-side{
+    .ad-text-side {
         width: 100vw;
     }
 
-    .ad-section-two{
+    .ad-section-two {
         flex-direction: column;
     }
 
-    .ranks-content{
+    .ranks-content {
         flex-direction: column;
         height: fit-content;
         row-gap: 26px;
     }
 
-    .ranks1{
+    .ranks1 {
         flex-direction: column;
     }
 
-    .ranks4{
+    .ranks4 {
         flex-direction: column;
     }
 }
@@ -237,21 +249,21 @@
         text-align: center;
     }
 
-    .why-us-image{
+    .why-us-image {
         width: 220px;
         height: 220px;
     }
 
-    .why-us-container{
+    .why-us-container {
         flex-direction: column;
     }
 
-    .why-us-text{
-             font-size: x-large;
-             
+    .why-us-text {
+        font-size: x-large;
+
     }
-    
-    .ranks-header{
+
+    .ranks-header {
         flex-direction: column-reverse;
         text-align: center;
         margin-bottom: 50px;
@@ -261,17 +273,17 @@
 
 
 @media screen and (max-width: 570px) {
-   .why-us-image{
-    width: 160px;
-    height: 160px;
-   }
+    .why-us-image {
+        width: 160px;
+        height: 160px;
+    }
 
-   .why-us-text{
-    font-size: larger;
-   }
+    .why-us-text {
+        font-size: larger;
+    }
 
-   .ad-text{
-    font-size: small;
-    font-weight: bolder;
-   }
+    .ad-text {
+        font-size: small;
+        font-weight: bolder;
+    }
 }
