@@ -1,42 +1,58 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import { Outlet, Link, useParams ,useNavigate } from 'react-router-dom'
-import { useState , } from 'react';
+import { Outlet, Link, useParams, useNavigate } from 'react-router-dom'
+import { useState, } from 'react';
 
-function Signuppage({isloggedout,setloggedout}) {
+function Signuppage({ isloggedout, setloggedout }) {
     const navigate = useNavigate()
     const [email, setemail] = useState()
     const [password, setpassword] = useState()
     const [verify, setverify] = useState()
+    const [username, setusername] = useState()
     const [userObj, setuserObj] = useState({})
 
     function setUser() {
-        if (!localStorage.getItem('users')){
+        if (!localStorage.getItem('users')) {
             localStorage.setItem('users', JSON.stringify([]))
         }
-        if (password == verify) {
-            const users = JSON.parse(localStorage.getItem('users'))
-            const check = users.find(a=>a.email==email)
-            if (check!=undefined) {
-                alert("already taken")
-            }else{
-                const person = { email: email, password: password, verify: verify , creditnum:"",confirmationnum:"",myworkout:""};
-                users.push(person)
-                localStorage.setItem('users', JSON.stringify(users))
-                localStorage.setItem('loggeduser', JSON.stringify(person))
-                setloggedout(false)
-                navigate(-1)
+        if (password.length <=6 || password.length >= 12) {
+            alert('password must be between 7 and 13 letters')
+        } 
+        else if (password.length > 6 && password.length < 12&&password == verify) {
+                const users = JSON.parse(localStorage.getItem('users'))
+                const check = users.find(a => a.email == email)
+                if (check != undefined) {   
+                    alert("already taken")
+                } else {
+                    if (email.includes('@')&&email.includes('.')) {
+                    const halfemail = email.split('@')[1].split('.')[0]
+                    if ((halfemail=='gmail'||halfemail=='walla')) {
+                        const person = { username: username, email: email, password: password, verify: verify, creditnum: "", confirmationnum: "", myworkout: "" };
+                        users.push(person)
+                        localStorage.setItem('users', JSON.stringify(users))
+                        localStorage.setItem('loggeduser', JSON.stringify(person))
+                        setloggedout(false)
+                        navigate(-1)    
+                    }else{
+                        alert('email isnt vaild')
+                    }
+                    }else{
+                        alert('email isnt vaild')
+                    }
+                }
             }
-        }else{
-            alert("password got to be the same")
+             else {
+                alert("password got to be the same")
+            }
         }
-    }
+    
 
 
     return (
         <div>
             <div className='sign-page'>
                 <h2>Sign-up</h2>
+                <TextField id="filled-basic" label="username" variant="filled" className='user-inputs' type='text' onChange={e => { setusername(e.target.value) }} />
                 <TextField id="filled-basic" label="email" variant="filled" className='user-inputs' type='email' onChange={e => { setemail(e.target.value) }} />
                 <TextField id="filled-basic" label="Password" variant="filled" className='user-inputs' type='password' onChange={e => { setpassword(e.target.value) }} />
                 <TextField id="filled-basic" label="Confirm Password" variant="filled" className='user-inputs' type='password' onChange={e => { setverify(e.target.value) }} />
@@ -54,7 +70,5 @@ function Signuppage({isloggedout,setloggedout}) {
         </div>
     )
 }
-
-export default Signuppage
 
 export default Signuppage

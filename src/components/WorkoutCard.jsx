@@ -2,10 +2,11 @@ import React from 'react'
 import './workoutcard.css'
 import { Outlet, Link, useParams } from 'react-router-dom'
 
-function workoutCard({image,name,goal,difficulty,exercises,equipment}) {
+function workoutCard({image,name,goal,difficulty,exercises,equipment,number}) {
   return (
     <span className='card-container'>
-     <Link to={`${name}`}>
+      
+     <Link to={number==1?`${name}`:`workouts/${name}`}>
      <img src={image} alt="" style={{width:"315px",height:"180px",borderRadius:"15px 15px 0 0"}}/>
      </Link>    
 
