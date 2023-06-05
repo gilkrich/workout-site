@@ -14,7 +14,7 @@ function Loginpage({ isloggedout, setloggedout }) {
     const users = JSON.parse(localStorage.getItem('users'))
     const check = users.find(a => a.email == email && a.password == usePassword)
     if (check == undefined) {
-      alert("dont is")
+      alert("The email or the password are incorrect")
     }
     else {
       localStorage.setItem('loggeduser', JSON.stringify(check))

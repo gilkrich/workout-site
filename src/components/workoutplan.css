@@ -159,6 +159,10 @@
       display: flex;
       align-items: center;
    }
+
+   ol li span {
+     font-size: x-small;
+  }
 }
 
  
