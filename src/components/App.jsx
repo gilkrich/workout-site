@@ -5,7 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import Workoutspage from './Workoutspage';
 import Homepage from './Homepage';
 import { data } from './workouts.json'
-import WorkoutCard from './WorkoutCard';
 import { Context } from './Context';
 import Calendar1 from './Calendar';
 import Workoutplanpage from './Workoutplanpage';
