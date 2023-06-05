@@ -81,37 +81,11 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   }
   function noPaiment() {
     if (localStorage.getItem("loggeduser")) {
-      if(loggedUser.creditnum!=""){
-      console.log(currentWorkout);
-      return currentWorkout && Object.values(currentWorkout[currentBmi]).map((item, index) => {
-        return (
-          <div className='work-hard' key={index}>
-            <div className='workout-card'>
-              <h2 className='exercises-name'>{item.name}</h2>
-              <h2>{item.sets} sets</h2>
-              <h2>{item.reps} reps</h2>
-              <h2>weight to use - {item.weight}</h2>
-              <ol className='list'>
-                {item.instructions.split("!").map((item, index) => {
-                  return (
-                    <li className="list-item" key={index}><span>{item}</span></li>
-                  );
-                })}
-              </ol>
-            </div>
-            <div className='workout-images'>
-             <img src={currentWorkout.images[index]} alt="" className='workout-image'/>
-            </div>
-          </div>
-        );
-      });
-    }
-    else{
-      return halfCurrentWorkout && halfCurrentWorkout.map((item, index) => {
-        console.log(item);
-        return (
-          <div className='workout-text' key={index}>
-            <div className='work-hard'>
+      if (loggedUser.creditnum != "") {
+        console.log(currentWorkout);
+        return currentWorkout && Object.values(currentWorkout[currentBmi]).map((item, index) => {
+          return (
+            <div className='work-hard' key={index}>
               <div className='workout-card'>
                 <h2 className='exercises-name'>{item.name}</h2>
                 <h2>{item.sets} sets</h2>
@@ -194,7 +168,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
     if (localStorage.getItem('loggeduser')) {
       let user = JSON.parse(localStorage.getItem('loggeduser'))
       let users = JSON.parse(localStorage.getItem('users')).filter(item => item.email != user.email)
-      const newperson = {username:user.username, email: user.email, password: user.password, verify: user.verify, creditnum: user.creditnum, confirmationnum: user.confirmationnum, myworkout: currentWorkout?.name };
+      const newperson = { username: user.username, email: user.email, password: user.password, verify: user.verify, creditnum: user.creditnum, confirmationnum: user.confirmationnum, myworkout: currentWorkout?.name };
       localStorage.setItem('loggeduser', JSON.stringify(newperson))
       users.push(newperson)
       localStorage.setItem('users', JSON.stringify(users))
@@ -202,7 +176,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   }
   function handleClick() {
     if (localStorage.getItem("loggeduser")) {
-      if (creditnum.length == 19&& confnum.length == 3) {
+      if (creditnum.length == 19 && confnum.length == 3) {
         loggedUser.creditnum = creditnum;
         loggedUser.confirmationnum = confnum;
         console.log(loggedUser);
@@ -218,6 +192,14 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
 
     }
   }
+  const handleInputChange = (event) => {
+    const { value } = event.target;
+    const formattedValue = value
+      .replace(/\s/g, '') // Remove existing spaces
+      .match(/.{1, 4}/g) // Split into groups of 4 characters
+      ?.join(' '); // Join groups with a space between them
+    setCreditNum(formattedValue || '');
+  };
   const handleExpiryDate = (date) => {
     setExpiryDate({
       value: date
@@ -288,14 +270,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
       )
     }
   }
-  const handleInputChange = (event) => {
-    const { value } = event.target;
-    const formattedValue = value
-      .replace(/\s/g, '') // Remove existing spaces
-      .match(/.{1,4}/g) // Split into groups of 4 characters
-      ?.join(' '); // Join groups with a space between them
-    setCreditNum(formattedValue || '');
-  };
+
   return (
     <div className='workoutplan-container'>
       <h1 style={{ marginBottom: '50px', marginTop: '50px' }}>Our workouts</h1>
@@ -314,8 +289,8 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
           <span id="height-val">{height} cm</span>
         </div>
         <div className='calc-buttons'>
-        <button onClick={() => Bmicalc(weight, height)} className='caculator'>calculate</button>
-        <button onClick={() => changeWork()} className='caculator'>change workout</button>
+          <button onClick={() => Bmicalc(weight, height)} className='caculator'>calculate</button>
+          <button onClick={() => changeWork()} className='caculator'>change workout</button>
         </div>
       </div>
       <div className='workout-base-info'>
@@ -325,12 +300,12 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
         <h3>Exercises : {currentWorkout?.exercises}</h3>
       </div>
 
-      {localStorage.getItem("loggeduser")&&loggedUser.creditnum!=""&&<button className='current-button' onClick={() => changeworkout()}>Make current workout</button>}
-          <div className='workout-text'>
+      {localStorage.getItem("loggeduser") && loggedUser.creditnum != "" && <button className='current-button' onClick={() => changeworkout()}>Make current workout</button>}
+      <div className='workout-text'>
         {noPaiment()}
         {handlePayment()}
-        </div>
-        
+      </div>
+
     </div>
   )
 }
