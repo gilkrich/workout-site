@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Layout from './Layout'
 import { Route, Routes } from 'react-router-dom';
-import Workoutspage from './Workoutspage';
+import Workoutspage from './workoutspage';
 import Homepage from './Homepage';
 import { data } from './workouts.json'
 import { Context } from './Context';
