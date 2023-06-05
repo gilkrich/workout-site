@@ -6,6 +6,7 @@ import facebook from './images/icons8-facebook-48.png';
 import google from './images/icons8-google-48.png';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+
 function Signuppage({ isloggedout, setloggedout }) {
   const navigate = useNavigate()
   const [username, setusername] = useState()
@@ -75,6 +76,7 @@ function Signuppage({ isloggedout, setloggedout }) {
         <TextField id="filled-basic" label="Confirm Password" variant="filled" className='user-inputs' type='password' onChange={e => { setverify(e.target.value) }} />
         <div style={{ width: '100%', marginLeft: '113px' }}>
           <input type="checkbox" name="remember" id="remember" /><label htmlFor="remember">remember me</label>
+
         </div>
           <input type="submit" value="Sign-up" className='user-buttons' onClick={() => setUser()}/>
         </form>

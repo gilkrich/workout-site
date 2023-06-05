@@ -8,13 +8,20 @@ import google from './images/icons8-google-48.png';
 
 function Loginpage({ isloggedout, setloggedout }) {
   const navigate = useNavigate()
-  const [email, setemail] = useState()
-  const [usePassword, setUserPassword] = useState()
-  function checklogin() {
-    const users = JSON.parse(localStorage.getItem('users'))
-    const check = users.find(a => a.email == email && a.password == usePassword)
-    if (check == undefined) {
-      alert("dont is")
+  const [email,setemail] =useState()
+  const [usePassword,setUserPassword] =useState()
+    function checklogin() {
+        const users = JSON.parse(localStorage.getItem('users'))
+        const check = users.find(a=>a.email==email&&a.password==usePassword)
+            if (check==undefined) {
+                alert("dont is")
+            }
+            else{              
+                localStorage.setItem('loggeduser', JSON.stringify(check))
+                setloggedout(false)
+                navigate(-1)
+            }
+
     }
     else {
       localStorage.setItem('loggeduser', JSON.stringify(check))
@@ -24,10 +31,11 @@ function Loginpage({ isloggedout, setloggedout }) {
   }
   return (
     <div className='Login-page'>
-      <h2>Login</h2>
-      <TextField id="filled-basic" label="email" variant="filled" className='user-inputs' type='email' onChange={(e) => setemail(e.target.value)} />
-      <TextField id="filled-basic" label="Password" variant="filled" className='user-inputs' type='password' onChange={(e) => setUserPassword(e.target.value)} />
-      <div style={{ width: '100%', marginLeft: '113px' }}>
+       <h2>Login</h2>
+       <TextField id="filled-basic" label="email" variant="filled" className='user-inputs' type='email' onChange={(e)=>setemail(e.target.value)}/>
+        <TextField id="filled-basic" label="Password" variant="filled" className='user-inputs'type='password'onChange={(e)=>setUserPassword(e.target.value)}/>
+        <div style={{width:'100%' ,marginLeft:'113px'}}>
+          
         <input type="checkbox" name="remember" id="remember" /><label htmlFor="remember">remember me</label>
       </div>
       <button className='user-buttons' onClick={() => checklogin()}>Login</button>

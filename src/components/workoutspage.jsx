@@ -2,8 +2,11 @@ import React from 'react'
 import { Outlet, Link, useParams,useNavigate } from 'react-router-dom'
 import WorkoutCard from './WorkoutCard'
 import './workoutpage.css'
+import { Context } from './Context'
+import { useContext } from 'react'
 const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
     const logd = localStorage.getItem('loggeduser')
+    const {numbercontext} = useContext(Context);
 
 
     function begin(e) {
@@ -16,7 +19,6 @@ const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
 
 
   return (
-    // style={{display:"flex", flexWrap:"wrap",gap:"30px",justifyContent:"center" ,marginTop:'140px',marginBottom:'100px'}}
     <div>
       <h1 className='workouts-title'>Power Up Your Fitness: Unleash Your Potential with Dynamic Workouts</h1>
       <div className='level-buttons'>
@@ -35,6 +37,7 @@ const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
           difficulty={item.level}
           exercises={item.exercises}
           equipment={item.equipment}
+          number = {numbercontext}
           />
         )
       })}
@@ -50,6 +53,7 @@ const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
             difficulty={item.level}
             exercises={item.exercises}
             equipment={item.equipment}
+            number = {1}
             />
             )
           }

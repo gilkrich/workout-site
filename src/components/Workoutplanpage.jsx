@@ -29,6 +29,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   const [currentWorkout2, setCurrentWorkout2] = useState();
   const [currentBmi, setBmi] = useState('to90');
   const [showingBmi, setShowingBmi] = useState();
+  const [condition, setcondition] = useState();
   const [height, setHeight] = useState(160);
   const [weight, setWeight] = useState(50);
   const [open, setOpen] = React.useState(false);
@@ -57,6 +58,15 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   function Bmicalc(weight, height) {
     let bmi = (weight / Math.pow((height / 100), 2)).toFixed(1);
     setShowingBmi(bmi)
+    if (bmi < 18.5) {
+      setcondition('Under Weight')
+    } else if (bmi >= 18.5 && bmi <= 24.9) {
+      setcondition('Normal Weight')
+    } else if (bmi >= 25 && bmi <= 29.9) {
+      setcondition('Over Weight')
+    } else if (bmi >= 30) {
+      setcondition('Obesse')
+    }
   }
   function changeWork() {
     if (showingBmi < 18.5) {
@@ -71,11 +81,37 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   }
   function noPaiment() {
     if (localStorage.getItem("loggeduser")) {
-      if (loggedUser.creditnum != "") {
-        console.log(currentWorkout);
-        return currentWorkout && Object.values(currentWorkout[currentBmi]).map((item, index) => {
-          return (
-            <div className='work-hard' key={index}>
+      if(loggedUser.creditnum!=""){
+      console.log(currentWorkout);
+      return currentWorkout && Object.values(currentWorkout[currentBmi]).map((item, index) => {
+        return (
+          <div className='work-hard' key={index}>
+            <div className='workout-card'>
+              <h2 className='exercises-name'>{item.name}</h2>
+              <h2>{item.sets} sets</h2>
+              <h2>{item.reps} reps</h2>
+              <h2>weight to use - {item.weight}</h2>
+              <ol className='list'>
+                {item.instructions.split("!").map((item, index) => {
+                  return (
+                    <li className="list-item" key={index}><span>{item}</span></li>
+                  );
+                })}
+              </ol>
+            </div>
+            <div className='workout-images'>
+             <img src={currentWorkout.images[index]} alt="" className='workout-image'/>
+            </div>
+          </div>
+        );
+      });
+    }
+    else{
+      return halfCurrentWorkout && halfCurrentWorkout.map((item, index) => {
+        console.log(item);
+        return (
+          <div className='workout-text' key={index}>
+            <div className='work-hard'>
               <div className='workout-card'>
                 <h2 className='exercises-name'>{item.name}</h2>
                 <h2>{item.sets} sets</h2>
@@ -158,7 +194,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
     if (localStorage.getItem('loggeduser')) {
       let user = JSON.parse(localStorage.getItem('loggeduser'))
       let users = JSON.parse(localStorage.getItem('users')).filter(item => item.email != user.email)
-      const newperson = { username: user.username, email: user.email, password: user.password, verify: user.verify, creditnum: user.creditnum, confirmationnum: user.confirmationnum, myworkout: currentWorkout?.name };
+      const newperson = {username:user.username, email: user.email, password: user.password, verify: user.verify, creditnum: user.creditnum, confirmationnum: user.confirmationnum, myworkout: currentWorkout?.name };
       localStorage.setItem('loggeduser', JSON.stringify(newperson))
       users.push(newperson)
       localStorage.setItem('users', JSON.stringify(users))
@@ -166,8 +202,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
   }
   function handleClick() {
     if (localStorage.getItem("loggeduser")) {
-      if (creditnum.length == 19
-        && confnum.length == 3) {
+      if (creditnum.length == 19&& confnum.length == 3) {
         loggedUser.creditnum = creditnum;
         loggedUser.confirmationnum = confnum;
         console.log(loggedUser);
@@ -180,6 +215,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
       else {
         alert("the credit card number or the confirmation number is incorrect");
       }
+
     }
   }
   const handleExpiryDate = (date) => {
@@ -267,7 +303,7 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
         <h1>BMI Calculator</h1>
         <div class="display">
           <p id="result">{showingBmi}</p>
-          <p id="category">Normal weight</p>
+          <p id="category">{condition}</p>
         </div>
         <div class="row">
           <input type="range" min={30} max={300} value={weight} id="weight" onChange={e => setWeight(e.target.value)} />
@@ -277,8 +313,10 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
           <input type="range" min={100} max={300} value={height} id="height" onChange={e => setHeight(e.target.value)} />
           <span id="height-val">{height} cm</span>
         </div>
+        <div className='calc-buttons'>
         <button onClick={() => Bmicalc(weight, height)} className='caculator'>calculate</button>
         <button onClick={() => changeWork()} className='caculator'>change workout</button>
+        </div>
       </div>
       <div className='workout-base-info'>
         <h1>{currentWorkout?.name}</h1>
@@ -286,11 +324,13 @@ const Workoutplanpage = ({ workoutData, setWorkoutData }) => {
         <h1>Best for {currentWorkout?.goal}</h1>
         <h3>Exercises : {currentWorkout?.exercises}</h3>
       </div>
-      {localStorage.getItem("loggeduser") && loggedUser.creditnum != "" && <button className='current-button' onClick={() => changeworkout()}>Make current workout</button>}
-      <div className='workout-text'>
+
+      {localStorage.getItem("loggeduser")&&loggedUser.creditnum!=""&&<button className='current-button' onClick={() => changeworkout()}>Make current workout</button>}
+          <div className='workout-text'>
         {noPaiment()}
         {handlePayment()}
-      </div>
+        </div>
+        
     </div>
   )
 }

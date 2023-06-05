@@ -46,7 +46,8 @@ const Homepage = ({ workoutData }) => {
         </div>
       </div>
       <div>
-        <h1 className='why-us-header'>why choose us</h1>
+        <h1 className='why-us-header'>Why Us?</h1>
+        <h2 style={{ textAlign: 'center', marginBottom: '60px' }}>With Us!</h2>
         <div className='why-us-container'>
           <div className='why-us-item'>
             <img src={lift} alt="" className='why-us-image' />
@@ -67,15 +68,16 @@ const Homepage = ({ workoutData }) => {
         <div className='popular-cards'>
           {workoutData && workoutData.filter(item => item.name == "Advanced Bodyweight Workout" || item.name == "Beginner Cable Workout" || item.name == "Beginner Barbell Workout").map((item, index) => {
             console.log(item);
-            return (
-              <WorkoutCard key={index}
-                image={item.img}
-                name={item.name}
-                goal={item.goal}
-                difficulty={item.level}
-                exercises={item.exercises}
-                equipment={item.equipment}
-              />
+            return (  
+                <WorkoutCard key={index}
+                  image={item.img}
+                  name={item.name}
+                  goal={item.goal}
+                  difficulty={item.level}
+                  exercises={item.exercises}
+                  equipment={item.equipment}
+                  number = {0}
+                />
             )
           }
           )}
