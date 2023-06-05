@@ -9,6 +9,7 @@ const Workoutspage = ({workoutData,setWorkoutData, workoutfakeData}) => {
     const {numbercontext} = useContext(Context);
 
     
+
     function begin(e) {
       setWorkoutData(workoutfakeData.filter(item=>item.level==e))
     }
